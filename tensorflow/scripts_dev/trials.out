@@ -1,0 +1,4023 @@
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
+Extracting /notebooks/datasets/mnist/train-images-idx3-ubyte.gz
+Extracting /notebooks/datasets/mnist/train-labels-idx1-ubyte.gz
+Extracting /notebooks/datasets/mnist/t10k-images-idx3-ubyte.gz
+Extracting /notebooks/datasets/mnist/t10k-labels-idx1-ubyte.gz
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:910] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 0000:00:04.0
+Total memory: 11.17GiB
+Free memory: 11.11GiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 0000:00:04.0)
+net loss: 2.30927
+synthetic_gradients_model_loss: 519.159
+net loss: 2.30259
+synthetic_gradients_model_loss: 738654.0
+net loss: 2.30259
+synthetic_gradients_model_loss: 508769.0
+net loss: 2.3025
+synthetic_gradients_model_loss: 1.05433e+06
+net loss: 2.30259
+synthetic_gradients_model_loss: 1.02512e+06
+net loss: 2.30263
+synthetic_gradients_model_loss: 1.0524e+06
+net loss: 2.30262
+synthetic_gradients_model_loss: 750404.0
+net loss: 2.30258
+synthetic_gradients_model_loss: 751604.0
+net loss: 2.30266
+synthetic_gradients_model_loss: 1.12102e+06
+net loss: 2.30262
+synthetic_gradients_model_loss: 1.0622e+06
+net loss: 2.30254
+synthetic_gradients_model_loss: 868207.0
+net loss: 2.30257
+synthetic_gradients_model_loss: 912250.0
+net loss: 2.30264
+synthetic_gradients_model_loss: 1.01885e+06
+net loss: 2.30252
+synthetic_gradients_model_loss: 949492.0
+net loss: 2.30261
+synthetic_gradients_model_loss: 816582.0
+net loss: 2.30246
+synthetic_gradients_model_loss: 928145.0
+net loss: 2.30256
+synthetic_gradients_model_loss: 727526.0
+net loss: 2.30266
+synthetic_gradients_model_loss: 1.11705e+06
+net loss: 2.30253
+synthetic_gradients_model_loss: 1.18207e+06
+net loss: 2.30266
+synthetic_gradients_model_loss: 1.34108e+06
+net loss: 2.30262
+synthetic_gradients_model_loss: 1.16012e+06
+net loss: 2.30248
+synthetic_gradients_model_loss: 1.04553e+06
+net loss: 2.30245
+synthetic_gradients_model_loss: 965552.0
+net loss: 2.30264
+synthetic_gradients_model_loss: 1.14522e+06
+net loss: 2.30279
+synthetic_gradients_model_loss: 864872.0
+net loss: 2.30248
+synthetic_gradients_model_loss: 1.72266e+06
+net loss: 2.30251
+synthetic_gradients_model_loss: 1.16386e+06
+net loss: 2.30273
+synthetic_gradients_model_loss: 1.71943e+06
+net loss: 2.30235
+synthetic_gradients_model_loss: 990856.0
+net loss: 2.30251
+synthetic_gradients_model_loss: 1.47385e+06
+net loss: 2.30274
+synthetic_gradients_model_loss: 1.57714e+06
+net loss: 2.30295
+synthetic_gradients_model_loss: 1.49191e+06
+net loss: 2.30237
+synthetic_gradients_model_loss: 1.77312e+06
+net loss: 2.30261
+synthetic_gradients_model_loss: 2.17616e+06
+net loss: 2.30258
+synthetic_gradients_model_loss: 1.8351e+06
+net loss: 2.30249
+synthetic_gradients_model_loss: 1.69678e+06
+net loss: 2.30252
+synthetic_gradients_model_loss: 2.12676e+06
+net loss: 2.30256
+synthetic_gradients_model_loss: 1.84743e+06
+net loss: 2.30268
+synthetic_gradients_model_loss: 2.56297e+06
+net loss: 2.30244
+synthetic_gradients_model_loss: 1.24506e+06
+net loss: 2.3026
+synthetic_gradients_model_loss: 1.9372e+06
+net loss: 2.30269
+synthetic_gradients_model_loss: 2.8839e+06
+net loss: 2.30181
+synthetic_gradients_model_loss: 3.15101e+06
+net loss: 2.30246
+synthetic_gradients_model_loss: 2.76542e+06
+net loss: 2.3023
+synthetic_gradients_model_loss: 3.14835e+06
+net loss: 2.30293
+synthetic_gradients_model_loss: 3.23084e+06
+net loss: 2.30262
+synthetic_gradients_model_loss: 4.44669e+06
+net loss: 2.30242
+synthetic_gradients_model_loss: 3.26463e+06
+net loss: 2.27969
+synthetic_gradients_model_loss: 2.25453e+06
+net loss: 2.30269
+synthetic_gradients_model_loss: 5.61156e+06
+net loss: 2.30245
+synthetic_gradients_model_loss: 4.5107e+06
+net loss: 2.30231
+synthetic_gradients_model_loss: 5.83921e+06
+net loss: 2.3022
+synthetic_gradients_model_loss: 1.59302e+07
+net loss: 2.37887
+synthetic_gradients_model_loss: 1.16221e+07
+net loss: 2.30283
+synthetic_gradients_model_loss: 1.84524e+07
+net loss: 3.07518
+synthetic_gradients_model_loss: 4.62801e+07
+net loss: 2.30261
+synthetic_gradients_model_loss: 9.40422e+07
+net loss: 2.30257
+synthetic_gradients_model_loss: 6.94572e+10
+net loss: 2.30191
+synthetic_gradients_model_loss: 4.27697e+10
+net loss: 2.30349
+synthetic_gradients_model_loss: 8.44017e+10
+net loss: 2.30182
+synthetic_gradients_model_loss: 3.80716e+10
+net loss: 3.58702e+11
+synthetic_gradients_model_loss: 6.31563e+10
+net loss: 2.30197
+synthetic_gradients_model_loss: 7.02201e+10
+net loss: 2.30058
+synthetic_gradients_model_loss: 6.95058e+10
+net loss: 2.30149
+synthetic_gradients_model_loss: 7.62139e+10
+net loss: 2.30418
+synthetic_gradients_model_loss: 9.83629e+09
+net loss: 2.30351
+synthetic_gradients_model_loss: 1.13823e+10
+net loss: 2.30153
+synthetic_gradients_model_loss: 3.30278e+10
+net loss: 2.30062
+synthetic_gradients_model_loss: 3.49833e+10
+net loss: 2.30115
+synthetic_gradients_model_loss: 2.20667e+10
+net loss: 2.29985
+synthetic_gradients_model_loss: 2.86984e+10
+net loss: 2.30127
+synthetic_gradients_model_loss: 6.71333e+10
+net loss: 2.30043
+synthetic_gradients_model_loss: 6.88467e+10
+net loss: 2.29866
+synthetic_gradients_model_loss: 1.06984e+10
+net loss: 2.29939
+synthetic_gradients_model_loss: 2.00679e+09
+net loss: 2.30127
+synthetic_gradients_model_loss: 1.03463e+10
+net loss: 2.29718
+synthetic_gradients_model_loss: 4.67358e+09
+net loss: 2.29849
+synthetic_gradients_model_loss: 1.71562e+09
+net loss: 2.30254
+synthetic_gradients_model_loss: 5.17532e+10
+net loss: 2.29933
+synthetic_gradients_model_loss: 3.76199e+10
+net loss: 2.30004
+synthetic_gradients_model_loss: 9.21745e+09
+net loss: 2.30227
+synthetic_gradients_model_loss: 4.94453e+10
+net loss: 2.30262
+synthetic_gradients_model_loss: 4.77266e+10
+net loss: 2.30261
+synthetic_gradients_model_loss: 4.68661e+10
+net loss: 2.30342
+synthetic_gradients_model_loss: 4.15168e+10
+net loss: 2.30366
+synthetic_gradients_model_loss: 3.07119e+10
+net loss: 2.30342
+synthetic_gradients_model_loss: 3.54339e+10
+net loss: 2.29935
+synthetic_gradients_model_loss: 1.38986e+10
+net loss: 2.3049
+synthetic_gradients_model_loss: 3.42365e+10
+net loss: 2.30446
+synthetic_gradients_model_loss: 3.42445e+10
+net loss: 2.30336
+synthetic_gradients_model_loss: 5.3458e+10
+net loss: 2.29882
+synthetic_gradients_model_loss: 5.34615e+10
+net loss: 2.30138
+synthetic_gradients_model_loss: 5.33899e+10
+net loss: 2.30476
+synthetic_gradients_model_loss: 5.32165e+10
+net loss: 2.30569
+synthetic_gradients_model_loss: 5.34682e+10
+net loss: 2.30058
+synthetic_gradients_model_loss: 5.34689e+10
+net loss: 2.3047
+synthetic_gradients_model_loss: 5.34685e+10
+net loss: 2.30392
+synthetic_gradients_model_loss: 5.34698e+10
+net loss: 2.30514
+synthetic_gradients_model_loss: 5.34699e+10
+net loss: 2.30425
+synthetic_gradients_model_loss: 4.87059e+10
+net loss: 2.30457
+synthetic_gradients_model_loss: 4.86536e+10
+net loss: 2.3037
+synthetic_gradients_model_loss: 4.87026e+10
+net loss: 2.30328
+synthetic_gradients_model_loss: 5.2161e+10
+net loss: 2.30385
+synthetic_gradients_model_loss: 5.2242e+10
+net loss: 2.30344
+synthetic_gradients_model_loss: 5.22465e+10
+net loss: 2.30263
+synthetic_gradients_model_loss: 5.22441e+10
+net loss: 2.30303
+synthetic_gradients_model_loss: 5.2248e+10
+net loss: 2.30076
+synthetic_gradients_model_loss: 5.17366e+10
+net loss: 2.30268
+synthetic_gradients_model_loss: 5.17392e+10
+net loss: 2.30169
+synthetic_gradients_model_loss: 5.17068e+10
+net loss: 2.30141
+synthetic_gradients_model_loss: 5.17353e+10
+net loss: 2.30353
+synthetic_gradients_model_loss: 5.17343e+10
+net loss: 2.30403
+synthetic_gradients_model_loss: 5.16916e+10
+net loss: 2.30412
+synthetic_gradients_model_loss: 5.19397e+10
+net loss: 2.3035
+synthetic_gradients_model_loss: 5.19409e+10
+net loss: 2.30178
+synthetic_gradients_model_loss: 5.19435e+10
+net loss: 2.30329
+synthetic_gradients_model_loss: 5.19472e+10
+net loss: 2.3024
+synthetic_gradients_model_loss: 5.18135e+10
+net loss: 2.30167
+synthetic_gradients_model_loss: 5.18138e+10
+net loss: 2.30248
+synthetic_gradients_model_loss: 5.18125e+10
+net loss: 2.30229
+synthetic_gradients_model_loss: 5.17593e+10
+net loss: 2.30234
+synthetic_gradients_model_loss: 5.17628e+10
+net loss: 2.3029
+synthetic_gradients_model_loss: 5.18179e+10
+net loss: 2.30266
+synthetic_gradients_model_loss: 5.18224e+10
+net loss: 2.30221
+synthetic_gradients_model_loss: 5.18933e+10
+net loss: 2.30168
+synthetic_gradients_model_loss: 5.18282e+10
+net loss: 2.30193
+synthetic_gradients_model_loss: 5.18718e+10
+net loss: 2.30338
+synthetic_gradients_model_loss: 5.18918e+10
+net loss: 2.30229
+synthetic_gradients_model_loss: 5.18963e+10
+net loss: 2.30157
+synthetic_gradients_model_loss: 5.18985e+10
+net loss: 2.30185
+synthetic_gradients_model_loss: 5.19031e+10
+net loss: 2.30213
+synthetic_gradients_model_loss: 5.18615e+10
+net loss: 2.30173
+synthetic_gradients_model_loss: 5.19032e+10
+net loss: 2.30272
+synthetic_gradients_model_loss: 5.21226e+10
+net loss: 2.30235
+synthetic_gradients_model_loss: 5.21182e+10
+net loss: 2.30315
+synthetic_gradients_model_loss: 5.21208e+10
+net loss: 2.30147
+synthetic_gradients_model_loss: 5.21008e+10
+net loss: 2.30068
+synthetic_gradients_model_loss: 5.21175e+10
+net loss: 2.30206
+synthetic_gradients_model_loss: 5.21164e+10
+net loss: 2.30126
+synthetic_gradients_model_loss: 5.20119e+10
+net loss: 2.30168
+synthetic_gradients_model_loss: 5.20141e+10
+net loss: 2.3024
+synthetic_gradients_model_loss: 5.2017e+10
+net loss: 2.30097
+synthetic_gradients_model_loss: 5.20172e+10
+net loss: 2.30212
+synthetic_gradients_model_loss: 5.20163e+10
+net loss: 2.30207
+synthetic_gradients_model_loss: 5.20182e+10
+net loss: 2.30273
+synthetic_gradients_model_loss: 5.20196e+10
+net loss: 2.30266
+synthetic_gradients_model_loss: 5.26957e+10
+net loss: 2.30132
+synthetic_gradients_model_loss: 5.26963e+10
+net loss: 2.30253
+synthetic_gradients_model_loss: 5.26983e+10
+net loss: 2.30226
+synthetic_gradients_model_loss: 5.26981e+10
+net loss: 2.30202
+synthetic_gradients_model_loss: 5.27002e+10
+net loss: 2.30277
+synthetic_gradients_model_loss: 5.26995e+10
+net loss: 2.30205
+synthetic_gradients_model_loss: 5.2698e+10
+net loss: 2.30082
+synthetic_gradients_model_loss: 5.27001e+10
+net loss: 2.30136
+synthetic_gradients_model_loss: 5.26963e+10
+net loss: 2.30084
+synthetic_gradients_model_loss: 5.26962e+10
+net loss: 2.30089
+synthetic_gradients_model_loss: 5.26971e+10
+net loss: 2.30235
+synthetic_gradients_model_loss: 5.26911e+10
+net loss: 2.30153
+synthetic_gradients_model_loss: 5.26926e+10
+net loss: 2.30286
+synthetic_gradients_model_loss: 5.26917e+10
+net loss: 2.30216
+synthetic_gradients_model_loss: 5.26936e+10
+net loss: 2.30329
+synthetic_gradients_model_loss: 5.26915e+10
+net loss: 2.30042
+synthetic_gradients_model_loss: 5.26909e+10
+net loss: 2.30291
+synthetic_gradients_model_loss: 5.26906e+10
+net loss: 2.30195
+synthetic_gradients_model_loss: 5.26601e+10
+net loss: 2.3028
+synthetic_gradients_model_loss: 5.26613e+10
+net loss: 2.30305
+synthetic_gradients_model_loss: 5.26602e+10
+net loss: 2.30238
+synthetic_gradients_model_loss: 5.266e+10
+net loss: 2.30132
+synthetic_gradients_model_loss: 5.26604e+10
+net loss: 2.30167
+synthetic_gradients_model_loss: 5.2657e+10
+net loss: 2.30227
+synthetic_gradients_model_loss: 5.26609e+10
+net loss: 2.30172
+synthetic_gradients_model_loss: 5.26567e+10
+net loss: 2.30298
+synthetic_gradients_model_loss: 5.26563e+10
+net loss: 2.30193
+synthetic_gradients_model_loss: 5.2656e+10
+net loss: 2.30186
+synthetic_gradients_model_loss: 5.26562e+10
+net loss: 2.30156
+synthetic_gradients_model_loss: 5.26737e+10
+net loss: 2.3017
+synthetic_gradients_model_loss: 5.2674e+10
+net loss: 2.3011
+synthetic_gradients_model_loss: 5.26658e+10
+net loss: 2.30285
+synthetic_gradients_model_loss: 5.26687e+10
+net loss: 2.30205
+synthetic_gradients_model_loss: 5.26683e+10
+net loss: 2.3017
+synthetic_gradients_model_loss: 5.26689e+10
+net loss: 2.30269
+synthetic_gradients_model_loss: 5.26693e+10
+net loss: 2.30162
+synthetic_gradients_model_loss: 5.26691e+10
+net loss: 2.30343
+synthetic_gradients_model_loss: 5.2669e+10
+net loss: 2.30234
+synthetic_gradients_model_loss: 5.26792e+10
+net loss: 2.30219
+synthetic_gradients_model_loss: 5.26792e+10
+net loss: 2.30143
+synthetic_gradients_model_loss: 5.26798e+10
+net loss: 2.30221
+synthetic_gradients_model_loss: 5.268e+10
+net loss: 2.30159
+synthetic_gradients_model_loss: 5.26799e+10
+net loss: 2.30144
+synthetic_gradients_model_loss: 5.26723e+10
+net loss: 2.30161
+synthetic_gradients_model_loss: 5.26725e+10
+net loss: 2.30233
+synthetic_gradients_model_loss: 5.26723e+10
+net loss: 2.30036
+synthetic_gradients_model_loss: 5.26718e+10
+net loss: 2.30133
+synthetic_gradients_model_loss: 5.2672e+10
+net loss: 2.3023
+synthetic_gradients_model_loss: 5.2672e+10
+net loss: 2.30219
+synthetic_gradients_model_loss: 5.26589e+10
+net loss: 2.30191
+synthetic_gradients_model_loss: 5.26593e+10
+net loss: 2.30179
+synthetic_gradients_model_loss: 5.26592e+10
+net loss: 2.30167
+synthetic_gradients_model_loss: 5.26589e+10
+net loss: 2.30222
+synthetic_gradients_model_loss: 5.26562e+10
+net loss: 2.30274
+synthetic_gradients_model_loss: 5.26559e+10
+net loss: 2.30161
+synthetic_gradients_model_loss: 5.2656e+10
+net loss: 2.30153
+synthetic_gradients_model_loss: 5.26561e+10
+net loss: 2.30177
+synthetic_gradients_model_loss: 5.26598e+10
+net loss: 2.30281
+synthetic_gradients_model_loss: 5.26565e+10
+net loss: 2.30189
+synthetic_gradients_model_loss: 5.26562e+10
+net loss: 2.30146
+synthetic_gradients_model_loss: 5.26559e+10
+net loss: 2.30255
+synthetic_gradients_model_loss: 5.26539e+10
+net loss: 2.30135
+synthetic_gradients_model_loss: 5.2654e+10
+net loss: 2.30216
+synthetic_gradients_model_loss: 5.26536e+10
+net loss: 2.3001
+synthetic_gradients_model_loss: 5.2654e+10
+net loss: 2.30257
+synthetic_gradients_model_loss: 5.26498e+10
+net loss: 2.30077
+synthetic_gradients_model_loss: 5.26496e+10
+net loss: 2.3007
+synthetic_gradients_model_loss: 5.26494e+10
+net loss: 2.30132
+synthetic_gradients_model_loss: 5.26493e+10
+net loss: 2.30344
+synthetic_gradients_model_loss: 5.2641e+10
+net loss: 2.302
+synthetic_gradients_model_loss: 5.26409e+10
+net loss: 2.3029
+synthetic_gradients_model_loss: 5.26408e+10
+net loss: 2.30215
+synthetic_gradients_model_loss: 5.2641e+10
+net loss: 2.30151
+synthetic_gradients_model_loss: 5.26411e+10
+net loss: 2.30099
+synthetic_gradients_model_loss: 5.2641e+10
+net loss: 2.30133
+synthetic_gradients_model_loss: 5.26329e+10
+net loss: 2.30121
+synthetic_gradients_model_loss: 5.26329e+10
+net loss: 2.30035
+synthetic_gradients_model_loss: 5.26329e+10
+net loss: 2.30341
+synthetic_gradients_model_loss: 5.26329e+10
+net loss: 2.30291
+synthetic_gradients_model_loss: 5.26331e+10
+net loss: 2.30395
+synthetic_gradients_model_loss: 5.2633e+10
+net loss: 2.30293
+synthetic_gradients_model_loss: 5.26376e+10
+net loss: 2.30136
+synthetic_gradients_model_loss: 5.26376e+10
+net loss: 2.30107
+synthetic_gradients_model_loss: 5.26376e+10
+net loss: 2.30132
+synthetic_gradients_model_loss: 5.26393e+10
+net loss: 2.30231
+synthetic_gradients_model_loss: 5.26376e+10
+net loss: 2.30228
+synthetic_gradients_model_loss: 5.26386e+10
+net loss: 2.30289
+synthetic_gradients_model_loss: 5.26386e+10
+net loss: 2.30112
+synthetic_gradients_model_loss: 5.26388e+10
+net loss: 2.30154
+synthetic_gradients_model_loss: 5.26386e+10
+net loss: 2.30147
+synthetic_gradients_model_loss: 5.26385e+10
+net loss: 2.30048
+synthetic_gradients_model_loss: 5.26385e+10
+net loss: 2.30166
+synthetic_gradients_model_loss: 5.26387e+10
+net loss: 2.30217
+synthetic_gradients_model_loss: 5.26387e+10
+net loss: 2.29919
+synthetic_gradients_model_loss: 5.26375e+10
+net loss: 2.30251
+synthetic_gradients_model_loss: 5.26374e+10
+net loss: 2.3029
+synthetic_gradients_model_loss: 5.26374e+10
+net loss: 2.30149
+synthetic_gradients_model_loss: 5.26375e+10
+net loss: 2.30233
+synthetic_gradients_model_loss: 5.26375e+10
+net loss: 2.30171
+synthetic_gradients_model_loss: 5.26376e+10
+net loss: 2.29939
+synthetic_gradients_model_loss: 5.26377e+10
+net loss: 2.30202
+synthetic_gradients_model_loss: 5.26376e+10
+net loss: 2.30424
+synthetic_gradients_model_loss: 5.26378e+10
+net loss: 2.30174
+synthetic_gradients_model_loss: 5.26378e+10
+net loss: 2.30225
+synthetic_gradients_model_loss: 5.26377e+10
+net loss: 2.30182
+synthetic_gradients_model_loss: 5.26365e+10
+net loss: 2.30296
+synthetic_gradients_model_loss: 5.26365e+10
+net loss: 2.30365
+synthetic_gradients_model_loss: 5.26365e+10
+net loss: 2.30088
+synthetic_gradients_model_loss: 5.26365e+10
+net loss: 2.30255
+synthetic_gradients_model_loss: 5.26365e+10
+net loss: 2.30153
+synthetic_gradients_model_loss: 5.26365e+10
+net loss: 2.30157
+synthetic_gradients_model_loss: 5.26363e+10
+net loss: 2.30242
+synthetic_gradients_model_loss: 5.26361e+10
+net loss: 2.30235
+synthetic_gradients_model_loss: 5.26361e+10
+net loss: 2.30309
+synthetic_gradients_model_loss: 5.26361e+10
+net loss: 2.30045
+synthetic_gradients_model_loss: 5.26361e+10
+net loss: 2.3014
+synthetic_gradients_model_loss: 5.26357e+10
+net loss: 2.30145
+synthetic_gradients_model_loss: 5.26357e+10
+net loss: 2.30265
+synthetic_gradients_model_loss: 5.26357e+10
+net loss: 2.30272
+synthetic_gradients_model_loss: 5.26357e+10
+net loss: 2.30143
+synthetic_gradients_model_loss: 5.26355e+10
+net loss: 2.30205
+synthetic_gradients_model_loss: 5.26355e+10
+net loss: 2.30198
+synthetic_gradients_model_loss: 5.26355e+10
+net loss: 2.30192
+synthetic_gradients_model_loss: 5.26356e+10
+net loss: 2.3003
+synthetic_gradients_model_loss: 5.26356e+10
+net loss: 2.30143
+synthetic_gradients_model_loss: 5.26356e+10
+net loss: 2.30194
+synthetic_gradients_model_loss: 5.26354e+10
+net loss: 2.30254
+synthetic_gradients_model_loss: 5.26353e+10
+net loss: 2.30234
+synthetic_gradients_model_loss: 5.26355e+10
+net loss: 2.30433
+synthetic_gradients_model_loss: 5.26356e+10
+net loss: 2.29859
+synthetic_gradients_model_loss: 5.26355e+10
+net loss: 2.30215
+synthetic_gradients_model_loss: 5.26355e+10
+net loss: 2.30092
+synthetic_gradients_model_loss: 5.26355e+10
+net loss: 2.30405
+synthetic_gradients_model_loss: 5.2635e+10
+net loss: 2.30206
+synthetic_gradients_model_loss: 5.26348e+10
+net loss: 2.30332
+synthetic_gradients_model_loss: 5.26347e+10
+net loss: 2.30072
+synthetic_gradients_model_loss: 5.26346e+10
+net loss: 2.30274
+synthetic_gradients_model_loss: 5.26346e+10
+net loss: 2.30369
+synthetic_gradients_model_loss: 5.26345e+10
+net loss: 2.30191
+synthetic_gradients_model_loss: 5.26346e+10
+net loss: 2.30116
+synthetic_gradients_model_loss: 5.26368e+10
+net loss: 2.30093
+synthetic_gradients_model_loss: 5.26368e+10
+net loss: 2.29976
+synthetic_gradients_model_loss: 5.26368e+10
+net loss: 2.30312
+synthetic_gradients_model_loss: 5.26368e+10
+net loss: 2.30332
+synthetic_gradients_model_loss: 5.26366e+10
+net loss: 2.30191
+synthetic_gradients_model_loss: 5.26367e+10
+net loss: 2.3018
+synthetic_gradients_model_loss: 5.26368e+10
+net loss: 2.30361
+synthetic_gradients_model_loss: 5.26371e+10
+net loss: 2.3018
+synthetic_gradients_model_loss: 5.26373e+10
+net loss: 2.30392
+synthetic_gradients_model_loss: 5.26375e+10
+net loss: 2.30093
+synthetic_gradients_model_loss: 5.26375e+10
+net loss: 2.30311
+synthetic_gradients_model_loss: 5.26375e+10
+net loss: 2.30237
+synthetic_gradients_model_loss: 5.26354e+10
+net loss: 2.29976
+synthetic_gradients_model_loss: 5.26357e+10
+net loss: 2.30177
+synthetic_gradients_model_loss: 5.26357e+10
+net loss: 2.30267
+synthetic_gradients_model_loss: 5.26357e+10
+net loss: 2.29867
+synthetic_gradients_model_loss: 5.26382e+10
+net loss: 2.30243
+synthetic_gradients_model_loss: 5.26356e+10
+net loss: 2.30342
+synthetic_gradients_model_loss: 5.26355e+10
+net loss: 2.30207
+synthetic_gradients_model_loss: 5.26358e+10
+net loss: 2.29912
+synthetic_gradients_model_loss: 5.26358e+10
+net loss: 2.30155
+synthetic_gradients_model_loss: 5.26342e+10
+net loss: 2.30262
+synthetic_gradients_model_loss: 5.26342e+10
+net loss: 2.30257
+synthetic_gradients_model_loss: 5.26342e+10
+net loss: 2.3028
+synthetic_gradients_model_loss: 5.26343e+10
+net loss: 2.30363
+synthetic_gradients_model_loss: 5.26374e+10
+net loss: 2.30203
+synthetic_gradients_model_loss: 5.26342e+10
+net loss: 2.3012
+synthetic_gradients_model_loss: 5.26343e+10
+net loss: 2.30184
+synthetic_gradients_model_loss: 5.26343e+10
+net loss: 2.30026
+synthetic_gradients_model_loss: 5.26343e+10
+net loss: 2.30563
+synthetic_gradients_model_loss: 5.26344e+10
+net loss: 2.30225
+synthetic_gradients_model_loss: 5.26344e+10
+net loss: 2.3013
+synthetic_gradients_model_loss: 5.26328e+10
+net loss: 2.30209
+synthetic_gradients_model_loss: 5.26328e+10
+net loss: 2.30309
+synthetic_gradients_model_loss: 5.26328e+10
+net loss: 2.29915
+synthetic_gradients_model_loss: 5.26327e+10
+net loss: 2.30242
+synthetic_gradients_model_loss: 5.26331e+10
+net loss: 2.29911
+synthetic_gradients_model_loss: 5.26331e+10
+net loss: 2.30067
+synthetic_gradients_model_loss: 5.26333e+10
+net loss: 2.29821
+synthetic_gradients_model_loss: 5.26332e+10
+net loss: 2.29987
+synthetic_gradients_model_loss: 5.26333e+10
+net loss: 2.30254
+synthetic_gradients_model_loss: 5.26332e+10
+net loss: 2.305
+synthetic_gradients_model_loss: 5.26332e+10
+net loss: 2.30036
+synthetic_gradients_model_loss: 5.26263e+10
+net loss: 2.30057
+synthetic_gradients_model_loss: 5.26263e+10
+net loss: 2.30295
+synthetic_gradients_model_loss: 5.26262e+10
+net loss: 2.30315
+synthetic_gradients_model_loss: 5.26262e+10
+net loss: 2.30275
+synthetic_gradients_model_loss: 5.26262e+10
+net loss: 2.30295
+synthetic_gradients_model_loss: 5.26252e+10
+net loss: 2.30061
+synthetic_gradients_model_loss: 5.26251e+10
+net loss: 2.2992
+synthetic_gradients_model_loss: 5.26251e+10
+net loss: 2.30203
+synthetic_gradients_model_loss: 5.2625e+10
+net loss: 2.30358
+synthetic_gradients_model_loss: 5.2625e+10
+net loss: 2.30067
+synthetic_gradients_model_loss: 5.26251e+10
+net loss: 2.30364
+synthetic_gradients_model_loss: 5.26265e+10
+net loss: 2.30328
+synthetic_gradients_model_loss: 5.26265e+10
+net loss: 2.30346
+synthetic_gradients_model_loss: 5.26265e+10
+net loss: 2.30152
+synthetic_gradients_model_loss: 5.26267e+10
+net loss: 2.30325
+synthetic_gradients_model_loss: 5.26267e+10
+net loss: 2.30095
+synthetic_gradients_model_loss: 5.26268e+10
+net loss: 2.30228
+synthetic_gradients_model_loss: 5.26342e+10
+net loss: 2.30529
+synthetic_gradients_model_loss: 5.26343e+10
+net loss: 2.30028
+synthetic_gradients_model_loss: 5.26342e+10
+net loss: 2.30209
+synthetic_gradients_model_loss: 5.26343e+10
+net loss: 2.30407
+synthetic_gradients_model_loss: 5.2637e+10
+net loss: 2.30295
+synthetic_gradients_model_loss: 5.26333e+10
+net loss: 2.3014
+synthetic_gradients_model_loss: 5.26333e+10
+net loss: 2.30341
+synthetic_gradients_model_loss: 5.26337e+10
+net loss: 2.29922
+synthetic_gradients_model_loss: 5.26475e+10
+net loss: 2.30097
+synthetic_gradients_model_loss: 5.26476e+10
+net loss: 2.30196
+synthetic_gradients_model_loss: 5.26481e+10
+net loss: 2.30182
+synthetic_gradients_model_loss: 5.26481e+10
+net loss: 2.30009
+synthetic_gradients_model_loss: 5.26469e+10
+net loss: 2.30382
+synthetic_gradients_model_loss: 5.26472e+10
+net loss: 2.30383
+synthetic_gradients_model_loss: 5.26474e+10
+net loss: 2.30407
+synthetic_gradients_model_loss: 5.26477e+10
+net loss: 2.29844
+synthetic_gradients_model_loss: 5.26477e+10
+net loss: 2.30386
+synthetic_gradients_model_loss: 5.26484e+10
+net loss: 2.30328
+synthetic_gradients_model_loss: 5.26484e+10
+net loss: 2.30262
+synthetic_gradients_model_loss: 5.26241e+10
+net loss: 2.30078
+synthetic_gradients_model_loss: 5.26245e+10
+net loss: 2.2982
+synthetic_gradients_model_loss: 5.26244e+10
+net loss: 2.30163
+synthetic_gradients_model_loss: 5.26249e+10
+net loss: 2.30107
+synthetic_gradients_model_loss: 5.26266e+10
+net loss: 2.30174
+synthetic_gradients_model_loss: 5.26247e+10
+net loss: 2.30148
+synthetic_gradients_model_loss: 5.26247e+10
+net loss: 2.30024
+synthetic_gradients_model_loss: 5.26244e+10
+net loss: 2.30063
+synthetic_gradients_model_loss: 5.26244e+10
+net loss: 2.30051
+synthetic_gradients_model_loss: 5.26241e+10
+net loss: 2.30226
+synthetic_gradients_model_loss: 5.26241e+10
+net loss: 2.29827
+synthetic_gradients_model_loss: 5.26241e+10
+net loss: 2.30254
+synthetic_gradients_model_loss: 5.26242e+10
+net loss: 2.30345
+synthetic_gradients_model_loss: 5.26238e+10
+net loss: 2.30108
+synthetic_gradients_model_loss: 5.2624e+10
+net loss: 2.30181
+synthetic_gradients_model_loss: 5.26183e+10
+net loss: 2.30202
+synthetic_gradients_model_loss: 5.26182e+10
+net loss: 2.30335
+synthetic_gradients_model_loss: 5.26183e+10
+net loss: 2.30195
+synthetic_gradients_model_loss: 5.26182e+10
+net loss: 2.30019
+synthetic_gradients_model_loss: 5.26183e+10
+net loss: 2.30192
+synthetic_gradients_model_loss: 5.26186e+10
+net loss: 2.30303
+synthetic_gradients_model_loss: 5.26187e+10
+net loss: 2.30125
+synthetic_gradients_model_loss: 5.26187e+10
+net loss: 2.30403
+synthetic_gradients_model_loss: 5.26164e+10
+net loss: 2.30076
+synthetic_gradients_model_loss: 5.26163e+10
+net loss: 2.29795
+synthetic_gradients_model_loss: 5.26163e+10
+net loss: 2.30015
+synthetic_gradients_model_loss: 5.26164e+10
+net loss: 2.30064
+synthetic_gradients_model_loss: 5.26167e+10
+net loss: 2.30144
+synthetic_gradients_model_loss: 5.26167e+10
+net loss: 2.30285
+synthetic_gradients_model_loss: 5.26168e+10
+net loss: 2.30141
+synthetic_gradients_model_loss: 5.26166e+10
+net loss: 2.30318
+synthetic_gradients_model_loss: 5.26275e+10
+net loss: 2.30307
+synthetic_gradients_model_loss: 5.26275e+10
+net loss: 2.3028
+synthetic_gradients_model_loss: 5.26276e+10
+net loss: 2.30333
+synthetic_gradients_model_loss: 5.26255e+10
+net loss: 2.30228
+synthetic_gradients_model_loss: 5.2635e+10
+net loss: 2.30077
+synthetic_gradients_model_loss: 5.26252e+10
+net loss: 2.30451
+synthetic_gradients_model_loss: 5.26251e+10
+net loss: 2.30456
+synthetic_gradients_model_loss: 5.26252e+10
+net loss: 2.30203
+synthetic_gradients_model_loss: 5.26252e+10
+net loss: 2.29909
+synthetic_gradients_model_loss: 5.26253e+10
+net loss: 2.3046
+synthetic_gradients_model_loss: 5.26262e+10
+net loss: 2.29886
+synthetic_gradients_model_loss: 5.26263e+10
+net loss: 2.30158
+synthetic_gradients_model_loss: 5.26264e+10
+net loss: 2.30284
+synthetic_gradients_model_loss: 5.26262e+10
+net loss: 2.30076
+synthetic_gradients_model_loss: 5.26262e+10
+net loss: 2.30039
+synthetic_gradients_model_loss: 5.26262e+10
+net loss: 2.30228
+synthetic_gradients_model_loss: 5.26262e+10
+net loss: 2.30491
+synthetic_gradients_model_loss: 5.26258e+10
+net loss: 2.3025
+synthetic_gradients_model_loss: 5.26351e+10
+net loss: 2.30009
+synthetic_gradients_model_loss: 5.26257e+10
+net loss: 2.30034
+synthetic_gradients_model_loss: 5.26259e+10
+net loss: 2.29944
+synthetic_gradients_model_loss: 5.26256e+10
+net loss: 2.30017
+synthetic_gradients_model_loss: 5.26256e+10
+net loss: 2.30186
+synthetic_gradients_model_loss: 5.26287e+10
+net loss: 2.30007
+synthetic_gradients_model_loss: 5.26286e+10
+net loss: 2.30125
+synthetic_gradients_model_loss: 5.26286e+10
+net loss: 2.30133
+synthetic_gradients_model_loss: 5.26286e+10
+net loss: 2.30126
+synthetic_gradients_model_loss: 5.26287e+10
+net loss: 2.30055
+synthetic_gradients_model_loss: 5.26288e+10
+net loss: 2.30355
+synthetic_gradients_model_loss: 5.26289e+10
+net loss: 2.30044
+synthetic_gradients_model_loss: 5.2629e+10
+net loss: 2.30081
+synthetic_gradients_model_loss: 5.26289e+10
+net loss: 2.30141
+synthetic_gradients_model_loss: 5.2629e+10
+net loss: 2.30077
+synthetic_gradients_model_loss: 5.26674e+10
+net loss: 2.30212
+synthetic_gradients_model_loss: 5.26673e+10
+net loss: 2.30388
+synthetic_gradients_model_loss: 5.26674e+10
+net loss: 2.30452
+synthetic_gradients_model_loss: 5.26675e+10
+net loss: 2.3012
+synthetic_gradients_model_loss: 5.28611e+10
+net loss: 2.30297
+synthetic_gradients_model_loss: 5.28614e+10
+net loss: 2.29907
+synthetic_gradients_model_loss: 5.27653e+10
+net loss: 2.30214
+synthetic_gradients_model_loss: 5.27653e+10
+net loss: 2.30329
+synthetic_gradients_model_loss: 5.27654e+10
+net loss: 2.29949
+synthetic_gradients_model_loss: 5.27653e+10
+net loss: 2.30079
+synthetic_gradients_model_loss: 5.27652e+10
+net loss: 2.29979
+synthetic_gradients_model_loss: 5.27654e+10
+net loss: 2.29811
+synthetic_gradients_model_loss: 5.27654e+10
+net loss: 2.30774
+synthetic_gradients_model_loss: 5.27654e+10
+net loss: 2.30217
+synthetic_gradients_model_loss: 5.27653e+10
+net loss: 2.30531
+synthetic_gradients_model_loss: 5.27653e+10
+net loss: 2.30313
+synthetic_gradients_model_loss: 5.2765e+10
+net loss: 2.29842
+synthetic_gradients_model_loss: 5.2766e+10
+net loss: 2.30279
+synthetic_gradients_model_loss: 5.2765e+10
+net loss: 2.30063
+synthetic_gradients_model_loss: 5.27648e+10
+net loss: 2.29679
+synthetic_gradients_model_loss: 5.27649e+10
+net loss: 2.30066
+synthetic_gradients_model_loss: 5.28485e+10
+net loss: 2.30144
+synthetic_gradients_model_loss: 5.2838e+10
+net loss: 2.30327
+synthetic_gradients_model_loss: 5.281e+10
+net loss: 2.29965
+synthetic_gradients_model_loss: 5.28102e+10
+net loss: 2.30206
+synthetic_gradients_model_loss: 5.28102e+10
+net loss: 2.30312
+synthetic_gradients_model_loss: 5.28103e+10
+net loss: 2.30032
+synthetic_gradients_model_loss: 5.28103e+10
+net loss: 2.30288
+synthetic_gradients_model_loss: 5.28104e+10
+net loss: 2.29989
+synthetic_gradients_model_loss: 5.28104e+10
+net loss: 2.30351
+synthetic_gradients_model_loss: 5.28104e+10
+net loss: 2.29936
+synthetic_gradients_model_loss: 5.28088e+10
+net loss: 2.30038
+synthetic_gradients_model_loss: 5.28088e+10
+net loss: 2.29897
+synthetic_gradients_model_loss: 5.28088e+10
+net loss: 2.30351
+synthetic_gradients_model_loss: 5.28088e+10
+net loss: 2.30174
+synthetic_gradients_model_loss: 5.28088e+10
+net loss: 2.30122
+synthetic_gradients_model_loss: 5.28087e+10
+net loss: 2.30605
+synthetic_gradients_model_loss: 5.28086e+10
+net loss: 2.30703
+synthetic_gradients_model_loss: 5.28085e+10
+net loss: 2.29896
+synthetic_gradients_model_loss: 5.28087e+10
+net loss: 2.30159
+synthetic_gradients_model_loss: 5.28153e+10
+net loss: 2.30416
+synthetic_gradients_model_loss: 5.28088e+10
+net loss: 2.29903
+synthetic_gradients_model_loss: 5.28087e+10
+net loss: 2.30085
+synthetic_gradients_model_loss: 5.28087e+10
+net loss: 2.30351
+synthetic_gradients_model_loss: 5.28088e+10
+net loss: 2.30218
+synthetic_gradients_model_loss: 5.28088e+10
+net loss: 2.30386
+synthetic_gradients_model_loss: 5.28088e+10
+net loss: 2.30236
+synthetic_gradients_model_loss: 5.28088e+10
+net loss: 2.29954
+synthetic_gradients_model_loss: 5.28088e+10
+net loss: 2.30005
+synthetic_gradients_model_loss: 5.28088e+10
+net loss: 2.30535
+synthetic_gradients_model_loss: 5.28089e+10
+net loss: 2.29989
+synthetic_gradients_model_loss: 5.28089e+10
+net loss: 2.30501
+synthetic_gradients_model_loss: 5.28089e+10
+net loss: 2.30317
+synthetic_gradients_model_loss: 5.28155e+10
+net loss: 2.30184
+synthetic_gradients_model_loss: 5.28089e+10
+net loss: 2.30284
+synthetic_gradients_model_loss: 5.28089e+10
+net loss: 2.30403
+synthetic_gradients_model_loss: 5.2809e+10
+net loss: 2.30701
+synthetic_gradients_model_loss: 5.2809e+10
+net loss: 2.29988
+synthetic_gradients_model_loss: 5.34676e+10
+net loss: 2.30445
+synthetic_gradients_model_loss: 5.34675e+10
+net loss: 2.30101
+synthetic_gradients_model_loss: 5.34674e+10
+net loss: 2.30219
+synthetic_gradients_model_loss: 5.34675e+10
+net loss: 2.30087
+synthetic_gradients_model_loss: 7.21865e+10
+net loss: 2.3011
+synthetic_gradients_model_loss: 7.21866e+10
+net loss: 2.30249
+synthetic_gradients_model_loss: 7.21866e+10
+net loss: 2.30612
+synthetic_gradients_model_loss: 7.21866e+10
+net loss: 2.30126
+synthetic_gradients_model_loss: 7.21866e+10
+net loss: 2.30234
+synthetic_gradients_model_loss: 7.21927e+10
+net loss: 2.30669
+synthetic_gradients_model_loss: 5.7867e+10
+net loss: 2.30107
+synthetic_gradients_model_loss: 5.7867e+10
+net loss: 2.2977
+synthetic_gradients_model_loss: 5.7867e+10
+net loss: 2.30308
+synthetic_gradients_model_loss: 5.7867e+10
+net loss: 2.30471
+synthetic_gradients_model_loss: 5.7867e+10
+net loss: 2.3016
+synthetic_gradients_model_loss: 5.7867e+10
+net loss: 2.30428
+synthetic_gradients_model_loss: 5.78672e+10
+net loss: 2.30133
+synthetic_gradients_model_loss: 5.78672e+10
+net loss: 2.29667
+synthetic_gradients_model_loss: 6.89369e+10
+net loss: 2.29974
+synthetic_gradients_model_loss: 6.89368e+10
+net loss: 2.30407
+synthetic_gradients_model_loss: 6.20551e+10
+net loss: 2.30615
+synthetic_gradients_model_loss: 6.20549e+10
+net loss: 2.30171
+synthetic_gradients_model_loss: 6.20549e+10
+net loss: 2.30584
+synthetic_gradients_model_loss: 6.20549e+10
+net loss: 2.30383
+synthetic_gradients_model_loss: 6.20549e+10
+net loss: 2.30229
+synthetic_gradients_model_loss: 6.20549e+10
+net loss: 2.30395
+synthetic_gradients_model_loss: 5.97857e+10
+net loss: 2.30068
+synthetic_gradients_model_loss: 5.97858e+10
+net loss: 2.29943
+synthetic_gradients_model_loss: 5.97857e+10
+net loss: 2.30011
+synthetic_gradients_model_loss: 5.97857e+10
+net loss: 2.30538
+synthetic_gradients_model_loss: 5.97857e+10
+net loss: 2.29677
+synthetic_gradients_model_loss: 5.97857e+10
+net loss: 2.30312
+synthetic_gradients_model_loss: 5.97857e+10
+net loss: 2.30249
+synthetic_gradients_model_loss: 5.97856e+10
+net loss: 2.30453
+synthetic_gradients_model_loss: 6.13572e+10
+net loss: 2.30499
+synthetic_gradients_model_loss: 6.13572e+10
+net loss: 2.30312
+synthetic_gradients_model_loss: 6.13573e+10
+net loss: 2.29872
+synthetic_gradients_model_loss: 6.13574e+10
+net loss: 2.30446
+synthetic_gradients_model_loss: 6.13574e+10
+net loss: 2.29709
+synthetic_gradients_model_loss: 6.13576e+10
+net loss: 2.30147
+synthetic_gradients_model_loss: 6.05089e+10
+net loss: 2.30121
+synthetic_gradients_model_loss: 6.05089e+10
+net loss: 2.30088
+synthetic_gradients_model_loss: 6.04579e+10
+net loss: 2.30347
+synthetic_gradients_model_loss: 6.0458e+10
+net loss: 2.30206
+synthetic_gradients_model_loss: 6.0458e+10
+net loss: 2.2996
+synthetic_gradients_model_loss: 6.0458e+10
+net loss: 2.29977
+synthetic_gradients_model_loss: 6.04579e+10
+net loss: 2.30071
+synthetic_gradients_model_loss: 6.04579e+10
+net loss: 2.30249
+synthetic_gradients_model_loss: 6.04551e+10
+net loss: 2.30369
+synthetic_gradients_model_loss: 6.04551e+10
+net loss: 2.3012
+synthetic_gradients_model_loss: 6.0455e+10
+net loss: 2.30019
+synthetic_gradients_model_loss: 6.0455e+10
+net loss: 2.30648
+synthetic_gradients_model_loss: 6.0455e+10
+net loss: 2.30129
+synthetic_gradients_model_loss: 6.04551e+10
+net loss: 2.30252
+synthetic_gradients_model_loss: 6.04551e+10
+net loss: 2.30138
+synthetic_gradients_model_loss: 6.04614e+10
+net loss: 2.30518
+synthetic_gradients_model_loss: 6.04614e+10
+net loss: 2.29605
+synthetic_gradients_model_loss: 6.04613e+10
+net loss: 2.30495
+synthetic_gradients_model_loss: 6.04613e+10
+net loss: 2.29847
+synthetic_gradients_model_loss: 6.0458e+10
+net loss: 2.30155
+synthetic_gradients_model_loss: 6.0458e+10
+net loss: 2.30516
+synthetic_gradients_model_loss: 6.0458e+10
+net loss: 2.30553
+synthetic_gradients_model_loss: 6.0458e+10
+net loss: 2.30359
+synthetic_gradients_model_loss: 6.0458e+10
+net loss: 2.30341
+synthetic_gradients_model_loss: 6.0458e+10
+net loss: 2.30036
+synthetic_gradients_model_loss: 6.0458e+10
+net loss: 2.30164
+synthetic_gradients_model_loss: 6.04601e+10
+net loss: 2.30283
+synthetic_gradients_model_loss: 6.04601e+10
+net loss: 2.30336
+synthetic_gradients_model_loss: 6.04601e+10
+net loss: 2.30096
+synthetic_gradients_model_loss: 6.04601e+10
+net loss: 2.30478
+synthetic_gradients_model_loss: 6.04601e+10
+net loss: 2.30138
+synthetic_gradients_model_loss: 6.04589e+10
+net loss: 2.30014
+synthetic_gradients_model_loss: 6.04589e+10
+net loss: 2.30182
+synthetic_gradients_model_loss: 6.04589e+10
+net loss: 2.30119
+synthetic_gradients_model_loss: 6.04589e+10
+net loss: 2.30234
+synthetic_gradients_model_loss: 6.04589e+10
+net loss: 2.30007
+synthetic_gradients_model_loss: 6.04589e+10
+net loss: 2.30452
+synthetic_gradients_model_loss: 6.04588e+10
+net loss: 2.30208
+synthetic_gradients_model_loss: 6.04588e+10
+net loss: 2.30334
+synthetic_gradients_model_loss: 6.04589e+10
+net loss: 2.30255
+synthetic_gradients_model_loss: 6.04589e+10
+net loss: 2.30378
+synthetic_gradients_model_loss: 6.04589e+10
+net loss: 2.30023
+synthetic_gradients_model_loss: 6.04589e+10
+net loss: 2.29902
+synthetic_gradients_model_loss: 6.04595e+10
+net loss: 2.30064
+synthetic_gradients_model_loss: 6.04595e+10
+net loss: 2.29877
+synthetic_gradients_model_loss: 6.04595e+10
+net loss: 2.3073
+synthetic_gradients_model_loss: 6.04595e+10
+net loss: 2.29932
+synthetic_gradients_model_loss: 6.04595e+10
+net loss: 2.30181
+synthetic_gradients_model_loss: 6.04592e+10
+net loss: 2.2992
+synthetic_gradients_model_loss: 6.04592e+10
+net loss: 2.30097
+synthetic_gradients_model_loss: 6.04592e+10
+net loss: 2.30088
+synthetic_gradients_model_loss: 6.04592e+10
+net loss: 2.30156
+synthetic_gradients_model_loss: 6.04592e+10
+net loss: 2.30036
+synthetic_gradients_model_loss: 6.04592e+10
+net loss: 2.30381
+synthetic_gradients_model_loss: 6.04592e+10
+net loss: 2.30048
+synthetic_gradients_model_loss: 6.04592e+10
+net loss: 2.2957
+synthetic_gradients_model_loss: 6.04592e+10
+net loss: 2.30182
+synthetic_gradients_model_loss: 6.04592e+10
+net loss: 2.30383
+synthetic_gradients_model_loss: 6.04592e+10
+net loss: 2.3031
+synthetic_gradients_model_loss: 6.04691e+10
+net loss: 2.30112
+synthetic_gradients_model_loss: 6.04691e+10
+net loss: 2.30106
+synthetic_gradients_model_loss: 6.04692e+10
+net loss: 2.29384
+synthetic_gradients_model_loss: 6.04692e+10
+net loss: 2.30162
+synthetic_gradients_model_loss: 6.04692e+10
+net loss: 2.3029
+synthetic_gradients_model_loss: 6.04692e+10
+net loss: 2.30091
+synthetic_gradients_model_loss: 6.04692e+10
+net loss: 2.30077
+synthetic_gradients_model_loss: 6.04584e+10
+net loss: 2.29887
+synthetic_gradients_model_loss: 6.04583e+10
+net loss: 2.30024
+synthetic_gradients_model_loss: 6.04581e+10
+net loss: 2.30249
+synthetic_gradients_model_loss: 6.04909e+10
+net loss: 2.30046
+synthetic_gradients_model_loss: 6.04911e+10
+net loss: 2.30143
+synthetic_gradients_model_loss: 6.04912e+10
+net loss: 2.30464
+synthetic_gradients_model_loss: 6.04912e+10
+net loss: 2.3032
+synthetic_gradients_model_loss: 6.04914e+10
+net loss: 2.30289
+synthetic_gradients_model_loss: 6.04915e+10
+net loss: 2.30271
+synthetic_gradients_model_loss: 6.04915e+10
+net loss: 2.30313
+synthetic_gradients_model_loss: 6.04914e+10
+net loss: 2.30339
+synthetic_gradients_model_loss: 6.04914e+10
+net loss: 2.30091
+synthetic_gradients_model_loss: 6.58243e+10
+net loss: 2.29978
+synthetic_gradients_model_loss: 6.58243e+10
+net loss: 2.29763
+synthetic_gradients_model_loss: 6.58243e+10
+net loss: 2.29948
+synthetic_gradients_model_loss: 6.58243e+10
+net loss: 2.29838
+synthetic_gradients_model_loss: 7.36052e+10
+net loss: 2.30376
+synthetic_gradients_model_loss: 7.36051e+10
+net loss: 2.30258
+synthetic_gradients_model_loss: 7.36051e+10
+net loss: 2.30463
+synthetic_gradients_model_loss: 7.37421e+10
+net loss: 2.30192
+synthetic_gradients_model_loss: 7.37422e+10
+net loss: 2.30188
+synthetic_gradients_model_loss: 7.37422e+10
+net loss: 2.30376
+synthetic_gradients_model_loss: 7.37424e+10
+net loss: 2.30416
+synthetic_gradients_model_loss: 7.37424e+10
+net loss: 2.29878
+synthetic_gradients_model_loss: 7.37425e+10
+net loss: 2.29848
+synthetic_gradients_model_loss: 7.37078e+10
+net loss: 2.30381
+synthetic_gradients_model_loss: 7.37075e+10
+net loss: 2.2977
+synthetic_gradients_model_loss: 7.37074e+10
+net loss: 2.3012
+synthetic_gradients_model_loss: 7.37074e+10
+net loss: 2.29785
+synthetic_gradients_model_loss: 7.37074e+10
+net loss: 2.30309
+synthetic_gradients_model_loss: 6.90641e+10
+net loss: 2.30105
+synthetic_gradients_model_loss: 6.90641e+10
+net loss: 2.30065
+synthetic_gradients_model_loss: 6.90641e+10
+net loss: 2.30192
+synthetic_gradients_model_loss: 6.90641e+10
+net loss: 2.30723
+synthetic_gradients_model_loss: 6.90641e+10
+net loss: 2.30143
+synthetic_gradients_model_loss: 6.90641e+10
+net loss: 2.30133
+synthetic_gradients_model_loss: 6.90641e+10
+net loss: 2.30113
+synthetic_gradients_model_loss: 6.90641e+10
+net loss: 2.30439
+synthetic_gradients_model_loss: 6.90641e+10
+net loss: 2.29981
+synthetic_gradients_model_loss: 7.37332e+10
+net loss: 2.30355
+synthetic_gradients_model_loss: 7.37331e+10
+net loss: 2.29857
+synthetic_gradients_model_loss: 7.37329e+10
+net loss: 2.30312
+synthetic_gradients_model_loss: 7.37691e+10
+net loss: 2.30485
+synthetic_gradients_model_loss: 7.37689e+10
+net loss: 2.30333
+synthetic_gradients_model_loss: 7.3769e+10
+net loss: 2.30185
+synthetic_gradients_model_loss: 7.3769e+10
+net loss: 2.303
+synthetic_gradients_model_loss: 7.37692e+10
+net loss: 2.30083
+synthetic_gradients_model_loss: 7.37695e+10
+net loss: 2.30357
+synthetic_gradients_model_loss: 7.37696e+10
+net loss: 2.30077
+synthetic_gradients_model_loss: 7.37699e+10
+net loss: 2.30002
+synthetic_gradients_model_loss: 7.37699e+10
+net loss: 2.3006
+synthetic_gradients_model_loss: 7.37699e+10
+net loss: 2.30211
+synthetic_gradients_model_loss: 7.37701e+10
+net loss: 2.30113
+synthetic_gradients_model_loss: 7.37701e+10
+net loss: 2.30389
+synthetic_gradients_model_loss: 7.37702e+10
+net loss: 2.3034
+synthetic_gradients_model_loss: 7.37702e+10
+net loss: 2.30714
+synthetic_gradients_model_loss: 7.37316e+10
+net loss: 2.30194
+synthetic_gradients_model_loss: 7.37316e+10
+net loss: 2.29891
+synthetic_gradients_model_loss: 6.91291e+10
+net loss: 2.30208
+synthetic_gradients_model_loss: 6.91291e+10
+net loss: 2.2994
+synthetic_gradients_model_loss: 6.91291e+10
+net loss: 2.29935
+synthetic_gradients_model_loss: 6.91291e+10
+net loss: 2.2997
+synthetic_gradients_model_loss: 6.91291e+10
+net loss: 2.30256
+synthetic_gradients_model_loss: 6.91291e+10
+net loss: 2.30264
+synthetic_gradients_model_loss: 6.91291e+10
+net loss: 2.3014
+synthetic_gradients_model_loss: 6.91291e+10
+net loss: 2.30297
+synthetic_gradients_model_loss: 6.05971e+10
+net loss: 2.30426
+synthetic_gradients_model_loss: 6.05971e+10
+net loss: 2.29773
+synthetic_gradients_model_loss: 6.05971e+10
+net loss: 2.30508
+synthetic_gradients_model_loss: 6.05971e+10
+net loss: 2.30413
+synthetic_gradients_model_loss: 6.05971e+10
+net loss: 2.29679
+synthetic_gradients_model_loss: 6.05972e+10
+net loss: 2.30448
+synthetic_gradients_model_loss: 6.05972e+10
+net loss: 2.30013
+synthetic_gradients_model_loss: 6.05447e+10
+net loss: 2.30098
+synthetic_gradients_model_loss: 6.05443e+10
+net loss: 2.3047
+synthetic_gradients_model_loss: 6.05443e+10
+net loss: 2.29978
+synthetic_gradients_model_loss: 6.05443e+10
+net loss: 2.30124
+synthetic_gradients_model_loss: 6.05442e+10
+net loss: 2.29871
+synthetic_gradients_model_loss: 6.05443e+10
+net loss: 2.29994
+synthetic_gradients_model_loss: 6.05442e+10
+net loss: 2.30026
+synthetic_gradients_model_loss: 6.05442e+10
+net loss: 2.30551
+synthetic_gradients_model_loss: 6.05442e+10
+net loss: 2.2994
+synthetic_gradients_model_loss: 6.05442e+10
+net loss: 2.29973
+synthetic_gradients_model_loss: 6.05442e+10
+net loss: 2.30034
+synthetic_gradients_model_loss: 6.05443e+10
+net loss: 2.30074
+synthetic_gradients_model_loss: 6.05444e+10
+net loss: 2.30277
+synthetic_gradients_model_loss: 6.05444e+10
+net loss: 2.30156
+synthetic_gradients_model_loss: 6.05444e+10
+net loss: 2.30294
+synthetic_gradients_model_loss: 6.05444e+10
+net loss: 2.30382
+synthetic_gradients_model_loss: 6.05444e+10
+net loss: 2.30684
+synthetic_gradients_model_loss: 6.05444e+10
+net loss: 2.30343
+synthetic_gradients_model_loss: 6.05444e+10
+net loss: 2.30102
+synthetic_gradients_model_loss: 6.05445e+10
+net loss: 2.29679
+synthetic_gradients_model_loss: 6.05445e+10
+net loss: 2.30233
+synthetic_gradients_model_loss: 6.05445e+10
+net loss: 2.3019
+synthetic_gradients_model_loss: 6.05445e+10
+net loss: 2.30133
+synthetic_gradients_model_loss: 6.05445e+10
+net loss: 2.29484
+synthetic_gradients_model_loss: 6.05445e+10
+net loss: 2.30186
+synthetic_gradients_model_loss: 6.05445e+10
+net loss: 2.3006
+synthetic_gradients_model_loss: 6.05446e+10
+net loss: 2.30313
+synthetic_gradients_model_loss: 6.05446e+10
+net loss: 2.30397
+synthetic_gradients_model_loss: 6.05568e+10
+net loss: 2.29924
+synthetic_gradients_model_loss: 6.05568e+10
+net loss: 2.29844
+synthetic_gradients_model_loss: 6.05568e+10
+net loss: 2.30402
+synthetic_gradients_model_loss: 6.05568e+10
+net loss: 2.30134
+synthetic_gradients_model_loss: 6.05569e+10
+net loss: 2.3009
+synthetic_gradients_model_loss: 6.05569e+10
+net loss: 2.30443
+synthetic_gradients_model_loss: 6.05569e+10
+net loss: 2.30012
+synthetic_gradients_model_loss: 6.0557e+10
+net loss: 2.29758
+synthetic_gradients_model_loss: 6.05569e+10
+net loss: 2.29952
+synthetic_gradients_model_loss: 6.19187e+10
+net loss: 2.30108
+synthetic_gradients_model_loss: 6.19187e+10
+net loss: 2.30321
+synthetic_gradients_model_loss: 7.29184e+10
+net loss: 2.30316
+synthetic_gradients_model_loss: 7.29184e+10
+net loss: 2.29822
+synthetic_gradients_model_loss: 7.29183e+10
+net loss: 2.29954
+synthetic_gradients_model_loss: 7.29184e+10
+net loss: 2.29617
+synthetic_gradients_model_loss: 7.29184e+10
+net loss: 2.29975
+synthetic_gradients_model_loss: 7.29184e+10
+net loss: 2.30453
+synthetic_gradients_model_loss: 6.19057e+10
+net loss: 2.29882
+synthetic_gradients_model_loss: 6.19057e+10
+net loss: 2.30325
+synthetic_gradients_model_loss: 6.19057e+10
+net loss: 2.29986
+synthetic_gradients_model_loss: 6.19057e+10
+net loss: 2.30324
+synthetic_gradients_model_loss: 6.19057e+10
+net loss: 2.30169
+synthetic_gradients_model_loss: 6.19057e+10
+net loss: 2.3036
+synthetic_gradients_model_loss: 6.19057e+10
+net loss: 2.30073
+synthetic_gradients_model_loss: 6.19057e+10
+net loss: 2.29926
+synthetic_gradients_model_loss: 6.19057e+10
+net loss: 2.29597
+synthetic_gradients_model_loss: 6.19057e+10
+net loss: 2.30464
+synthetic_gradients_model_loss: 7.26817e+10
+net loss: 2.30142
+synthetic_gradients_model_loss: 7.26818e+10
+net loss: 2.30308
+synthetic_gradients_model_loss: 7.26818e+10
+net loss: 2.30177
+synthetic_gradients_model_loss: 7.26818e+10
+net loss: 2.30273
+synthetic_gradients_model_loss: 6.18621e+10
+net loss: 2.30371
+synthetic_gradients_model_loss: 6.18621e+10
+net loss: 2.29953
+synthetic_gradients_model_loss: 6.18621e+10
+net loss: 2.30669
+synthetic_gradients_model_loss: 6.06125e+10
+net loss: 2.30322
+synthetic_gradients_model_loss: 6.06125e+10
+net loss: 2.30022
+synthetic_gradients_model_loss: 6.06125e+10
+net loss: 2.30449
+synthetic_gradients_model_loss: 6.06125e+10
+net loss: 2.29684
+synthetic_gradients_model_loss: 6.05942e+10
+net loss: 2.29948
+synthetic_gradients_model_loss: 6.05943e+10
+net loss: 2.30123
+synthetic_gradients_model_loss: 6.05943e+10
+net loss: 2.3069
+synthetic_gradients_model_loss: 6.05943e+10
+net loss: 2.30161
+synthetic_gradients_model_loss: 6.05943e+10
+net loss: 2.29558
+synthetic_gradients_model_loss: 6.05943e+10
+net loss: 2.30629
+synthetic_gradients_model_loss: 6.05943e+10
+net loss: 2.30046
+synthetic_gradients_model_loss: 6.06115e+10
+net loss: 2.29985
+synthetic_gradients_model_loss: 6.06115e+10
+net loss: 2.30636
+synthetic_gradients_model_loss: 6.06115e+10
+net loss: 2.3047
+synthetic_gradients_model_loss: 6.06115e+10
+net loss: 2.30184
+synthetic_gradients_model_loss: 6.06115e+10
+net loss: 2.30431
+synthetic_gradients_model_loss: 6.15433e+10
+net loss: 2.30315
+synthetic_gradients_model_loss: 6.15433e+10
+net loss: 2.30004
+synthetic_gradients_model_loss: 6.15433e+10
+net loss: 2.30202
+synthetic_gradients_model_loss: 6.15433e+10
+net loss: 2.29817
+synthetic_gradients_model_loss: 6.15433e+10
+net loss: 2.30144
+synthetic_gradients_model_loss: 6.15433e+10
+net loss: 2.3042
+synthetic_gradients_model_loss: 6.15432e+10
+net loss: 2.30453
+synthetic_gradients_model_loss: 7.09993e+10
+net loss: 2.29866
+synthetic_gradients_model_loss: 7.09993e+10
+net loss: 2.3001
+synthetic_gradients_model_loss: 7.09993e+10
+net loss: 2.30097
+synthetic_gradients_model_loss: 7.09993e+10
+net loss: 2.30113
+synthetic_gradients_model_loss: 7.09993e+10
+net loss: 2.29793
+synthetic_gradients_model_loss: 6.15313e+10
+net loss: 2.29492
+synthetic_gradients_model_loss: 6.15312e+10
+net loss: 2.29986
+synthetic_gradients_model_loss: 6.15311e+10
+net loss: 2.3037
+synthetic_gradients_model_loss: 6.1531e+10
+net loss: 2.30309
+synthetic_gradients_model_loss: 6.1531e+10
+net loss: 2.3015
+synthetic_gradients_model_loss: 6.06241e+10
+net loss: 2.29659
+synthetic_gradients_model_loss: 6.06241e+10
+net loss: 2.30222
+synthetic_gradients_model_loss: 6.06242e+10
+net loss: 2.29761
+synthetic_gradients_model_loss: 6.06242e+10
+net loss: 2.30076
+synthetic_gradients_model_loss: 6.06242e+10
+net loss: 2.30483
+synthetic_gradients_model_loss: 6.17585e+10
+net loss: 2.30352
+synthetic_gradients_model_loss: 6.17586e+10
+net loss: 2.3039
+synthetic_gradients_model_loss: 6.17586e+10
+net loss: 2.29891
+synthetic_gradients_model_loss: 6.17586e+10
+net loss: 2.30304
+synthetic_gradients_model_loss: 6.17586e+10
+net loss: 2.30431
+synthetic_gradients_model_loss: 6.17586e+10
+net loss: 2.29986
+synthetic_gradients_model_loss: 6.17586e+10
+net loss: 2.3064
+synthetic_gradients_model_loss: 7.13991e+10
+net loss: 2.29921
+synthetic_gradients_model_loss: 7.13991e+10
+net loss: 2.30018
+synthetic_gradients_model_loss: 7.13991e+10
+net loss: 2.30451
+synthetic_gradients_model_loss: 7.13991e+10
+net loss: 2.30001
+synthetic_gradients_model_loss: 7.29564e+10
+net loss: 2.30074
+synthetic_gradients_model_loss: 7.29563e+10
+net loss: 2.30229
+synthetic_gradients_model_loss: 7.29563e+10
+net loss: 2.29789
+synthetic_gradients_model_loss: 7.29563e+10
+net loss: 2.30357
+synthetic_gradients_model_loss: 7.29564e+10
+net loss: 2.30033
+synthetic_gradients_model_loss: 7.29563e+10
+net loss: 2.30422
+synthetic_gradients_model_loss: 7.29564e+10
+net loss: 2.30086
+synthetic_gradients_model_loss: 7.29564e+10
+net loss: 2.30207
+synthetic_gradients_model_loss: 7.29565e+10
+net loss: 2.30196
+synthetic_gradients_model_loss: 7.29564e+10
+net loss: 2.30139
+synthetic_gradients_model_loss: 7.2978e+10
+net loss: 2.29993
+synthetic_gradients_model_loss: 7.29782e+10
+net loss: 2.30073
+synthetic_gradients_model_loss: 7.29784e+10
+net loss: 2.30467
+synthetic_gradients_model_loss: 7.29785e+10
+net loss: 2.29793
+synthetic_gradients_model_loss: 7.29784e+10
+net loss: 2.30134
+synthetic_gradients_model_loss: 7.29786e+10
+net loss: 2.29943
+synthetic_gradients_model_loss: 7.29786e+10
+net loss: 2.30043
+synthetic_gradients_model_loss: 7.29786e+10
+net loss: 2.30308
+synthetic_gradients_model_loss: 7.29788e+10
+net loss: 2.30285
+synthetic_gradients_model_loss: 7.2979e+10
+net loss: 2.30279
+synthetic_gradients_model_loss: 7.29791e+10
+net loss: 2.30444
+synthetic_gradients_model_loss: 7.29794e+10
+net loss: 2.3017
+synthetic_gradients_model_loss: 7.29798e+10
+net loss: 2.30032
+synthetic_gradients_model_loss: 7.29801e+10
+net loss: 2.29947
+synthetic_gradients_model_loss: 7.29801e+10
+net loss: 2.29782
+synthetic_gradients_model_loss: 7.29803e+10
+net loss: 2.30314
+synthetic_gradients_model_loss: 7.29801e+10
+net loss: 2.30206
+synthetic_gradients_model_loss: 7.29803e+10
+net loss: 2.29874
+synthetic_gradients_model_loss: 7.29803e+10
+net loss: 2.29664
+synthetic_gradients_model_loss: 7.29803e+10
+net loss: 2.29935
+synthetic_gradients_model_loss: 7.29804e+10
+net loss: 2.30175
+synthetic_gradients_model_loss: 7.29806e+10
+net loss: 2.30587
+synthetic_gradients_model_loss: 7.29809e+10
+net loss: 2.30066
+synthetic_gradients_model_loss: 7.29812e+10
+net loss: 2.30081
+synthetic_gradients_model_loss: 7.29812e+10
+net loss: 2.30924
+synthetic_gradients_model_loss: 7.29813e+10
+net loss: 2.30104
+synthetic_gradients_model_loss: 7.29814e+10
+net loss: 2.30184
+synthetic_gradients_model_loss: 7.29815e+10
+net loss: 2.30403
+synthetic_gradients_model_loss: 7.29807e+10
+net loss: 2.30256
+synthetic_gradients_model_loss: 7.29806e+10
+net loss: 2.29437
+synthetic_gradients_model_loss: 7.29806e+10
+net loss: 2.29757
+synthetic_gradients_model_loss: 7.29806e+10
+net loss: 2.30034
+synthetic_gradients_model_loss: 7.29805e+10
+net loss: 2.30094
+synthetic_gradients_model_loss: 7.29805e+10
+net loss: 2.29837
+synthetic_gradients_model_loss: 7.29816e+10
+net loss: 2.29856
+synthetic_gradients_model_loss: 7.29818e+10
+net loss: 2.2956
+synthetic_gradients_model_loss: 7.29819e+10
+net loss: 2.30129
+synthetic_gradients_model_loss: 7.2982e+10
+net loss: 2.29844
+synthetic_gradients_model_loss: 7.2982e+10
+net loss: 2.3004
+synthetic_gradients_model_loss: 7.2982e+10
+net loss: 2.30563
+synthetic_gradients_model_loss: 7.29821e+10
+net loss: 2.30315
+synthetic_gradients_model_loss: 7.29821e+10
+net loss: 2.30673
+synthetic_gradients_model_loss: 7.2981e+10
+net loss: 2.29847
+synthetic_gradients_model_loss: 7.29809e+10
+net loss: 2.30105
+synthetic_gradients_model_loss: 7.29808e+10
+net loss: 2.30408
+synthetic_gradients_model_loss: 7.29806e+10
+net loss: 2.30162
+synthetic_gradients_model_loss: 7.29806e+10
+net loss: 2.30434
+synthetic_gradients_model_loss: 7.29806e+10
+net loss: 2.29937
+synthetic_gradients_model_loss: 7.28749e+10
+net loss: 2.30137
+synthetic_gradients_model_loss: 7.28748e+10
+net loss: 2.29833
+synthetic_gradients_model_loss: 7.28746e+10
+net loss: 2.3024
+synthetic_gradients_model_loss: 6.22485e+10
+net loss: 2.3022
+synthetic_gradients_model_loss: 6.8588e+10
+net loss: 2.30389
+synthetic_gradients_model_loss: 6.8588e+10
+net loss: 2.30531
+synthetic_gradients_model_loss: 6.8588e+10
+net loss: 2.3024
+synthetic_gradients_model_loss: 6.85879e+10
+net loss: 2.30344
+synthetic_gradients_model_loss: 6.85878e+10
+net loss: 2.30257
+synthetic_gradients_model_loss: 6.85877e+10
+net loss: 2.30049
+synthetic_gradients_model_loss: 6.85876e+10
+net loss: 2.30042
+synthetic_gradients_model_loss: 6.09592e+10
+net loss: 2.30331
+synthetic_gradients_model_loss: 6.09592e+10
+net loss: 2.30074
+synthetic_gradients_model_loss: 6.09592e+10
+net loss: 2.29826
+synthetic_gradients_model_loss: 6.09592e+10
+net loss: 2.30853
+synthetic_gradients_model_loss: 6.09592e+10
+net loss: 2.29708
+synthetic_gradients_model_loss: 6.09592e+10
+net loss: 2.29816
+synthetic_gradients_model_loss: 6.0711e+10
+net loss: 2.30312
+synthetic_gradients_model_loss: 6.0711e+10
+net loss: 2.30445
+synthetic_gradients_model_loss: 6.0711e+10
+net loss: 2.30496
+synthetic_gradients_model_loss: 6.0711e+10
+net loss: 2.30019
+synthetic_gradients_model_loss: 6.0711e+10
+net loss: 2.29711
+synthetic_gradients_model_loss: 6.07063e+10
+net loss: 2.29747
+synthetic_gradients_model_loss: 6.07063e+10
+net loss: 2.29995
+synthetic_gradients_model_loss: 6.07064e+10
+net loss: 2.29776
+synthetic_gradients_model_loss: 6.0711e+10
+net loss: 2.30118
+synthetic_gradients_model_loss: 6.0711e+10
+net loss: 2.30395
+synthetic_gradients_model_loss: 6.0711e+10
+net loss: 2.30371
+synthetic_gradients_model_loss: 6.0711e+10
+net loss: 2.30294
+synthetic_gradients_model_loss: 6.0711e+10
+net loss: 2.29494
+synthetic_gradients_model_loss: 6.07064e+10
+net loss: 2.29847
+synthetic_gradients_model_loss: 6.07064e+10
+net loss: 2.30319
+synthetic_gradients_model_loss: 6.07064e+10
+net loss: 2.30816
+synthetic_gradients_model_loss: 6.07064e+10
+net loss: 2.30473
+synthetic_gradients_model_loss: 7.16895e+10
+net loss: 2.29948
+synthetic_gradients_model_loss: 6.07062e+10
+net loss: 2.29778
+synthetic_gradients_model_loss: 6.07063e+10
+net loss: 2.30085
+synthetic_gradients_model_loss: 6.07063e+10
+net loss: 2.29958
+synthetic_gradients_model_loss: 6.07063e+10
+net loss: 2.30038
+synthetic_gradients_model_loss: 6.07063e+10
+net loss: 2.30118
+synthetic_gradients_model_loss: 6.07063e+10
+net loss: 2.30327
+synthetic_gradients_model_loss: 6.07065e+10
+net loss: 2.3031
+synthetic_gradients_model_loss: 6.07065e+10
+net loss: 2.29514
+synthetic_gradients_model_loss: 6.07065e+10
+net loss: 2.30383
+synthetic_gradients_model_loss: 6.07065e+10
+net loss: 2.29826
+synthetic_gradients_model_loss: 6.07065e+10
+net loss: 2.30163
+synthetic_gradients_model_loss: 6.07114e+10
+net loss: 2.30469
+synthetic_gradients_model_loss: 6.07114e+10
+net loss: 2.30347
+synthetic_gradients_model_loss: 6.07114e+10
+net loss: 2.29981
+synthetic_gradients_model_loss: 6.07114e+10
+net loss: 2.29582
+synthetic_gradients_model_loss: 6.07114e+10
+net loss: 2.30098
+synthetic_gradients_model_loss: 6.07114e+10
+net loss: 2.29797
+synthetic_gradients_model_loss: 6.07114e+10
+net loss: 2.30285
+synthetic_gradients_model_loss: 6.07114e+10
+net loss: 2.29577
+synthetic_gradients_model_loss: 6.07114e+10
+net loss: 2.30174
+synthetic_gradients_model_loss: 6.09628e+10
+net loss: 2.29111
+synthetic_gradients_model_loss: 6.09628e+10
+net loss: 2.29953
+synthetic_gradients_model_loss: 6.09628e+10
+net loss: 2.29681
+synthetic_gradients_model_loss: 6.09628e+10
+net loss: 2.30084
+synthetic_gradients_model_loss: 6.09628e+10
+net loss: 2.30041
+synthetic_gradients_model_loss: 6.09628e+10
+net loss: 2.30118
+synthetic_gradients_model_loss: 6.09628e+10
+net loss: 2.30338
+synthetic_gradients_model_loss: 6.0945e+10
+net loss: 2.30229
+synthetic_gradients_model_loss: 6.0945e+10
+net loss: 2.29706
+synthetic_gradients_model_loss: 6.0945e+10
+net loss: 2.3019
+synthetic_gradients_model_loss: 6.0945e+10
+net loss: 2.2978
+synthetic_gradients_model_loss: 6.0945e+10
+net loss: 2.29737
+synthetic_gradients_model_loss: 6.0945e+10
+net loss: 2.30111
+synthetic_gradients_model_loss: 6.0945e+10
+net loss: 2.29478
+synthetic_gradients_model_loss: 6.07112e+10
+net loss: 2.29784
+synthetic_gradients_model_loss: 6.07112e+10
+net loss: 2.30452
+synthetic_gradients_model_loss: 6.07112e+10
+net loss: 2.30647
+synthetic_gradients_model_loss: 6.07112e+10
+net loss: 2.30178
+synthetic_gradients_model_loss: 6.07112e+10
+net loss: 2.30331
+synthetic_gradients_model_loss: 6.07112e+10
+net loss: 2.30706
+synthetic_gradients_model_loss: 6.07112e+10
+net loss: 2.29756
+synthetic_gradients_model_loss: 6.09723e+10
+net loss: 2.30265
+synthetic_gradients_model_loss: 6.09723e+10
+net loss: 2.29703
+synthetic_gradients_model_loss: 6.09723e+10
+net loss: 2.30904
+synthetic_gradients_model_loss: 6.09723e+10
+net loss: 2.30376
+synthetic_gradients_model_loss: 6.82424e+10
+net loss: 2.29843
+synthetic_gradients_model_loss: 6.82425e+10
+net loss: 2.30333
+synthetic_gradients_model_loss: 6.82424e+10
+net loss: 2.30768
+synthetic_gradients_model_loss: 6.82426e+10
+net loss: 2.29896
+synthetic_gradients_model_loss: 6.82426e+10
+net loss: 2.30799
+synthetic_gradients_model_loss: 6.82428e+10
+net loss: 2.29742
+synthetic_gradients_model_loss: 6.82428e+10
+net loss: 2.29941
+synthetic_gradients_model_loss: 7.27453e+10
+net loss: 2.3053
+synthetic_gradients_model_loss: 7.27454e+10
+net loss: 2.30013
+synthetic_gradients_model_loss: 7.27455e+10
+net loss: 2.29781
+synthetic_gradients_model_loss: 7.27455e+10
+net loss: 2.30794
+synthetic_gradients_model_loss: 7.27456e+10
+net loss: 2.30112
+synthetic_gradients_model_loss: 7.27458e+10
+net loss: 2.29976
+synthetic_gradients_model_loss: 6.82432e+10
+net loss: 2.29757
+synthetic_gradients_model_loss: 6.82433e+10
+net loss: 2.30372
+synthetic_gradients_model_loss: 6.82433e+10
+net loss: 2.30151
+synthetic_gradients_model_loss: 6.82433e+10
+net loss: 2.30296
+synthetic_gradients_model_loss: 6.82432e+10
+net loss: 2.30375
+synthetic_gradients_model_loss: 6.82432e+10
+net loss: 2.30035
+synthetic_gradients_model_loss: 7.27575e+10
+net loss: 2.30916
+synthetic_gradients_model_loss: 7.27577e+10
+net loss: 2.30753
+synthetic_gradients_model_loss: 7.27576e+10
+net loss: 2.30545
+synthetic_gradients_model_loss: 7.27576e+10
+net loss: 2.29827
+synthetic_gradients_model_loss: 7.27576e+10
+net loss: 2.29992
+synthetic_gradients_model_loss: 7.28841e+10
+net loss: 2.29919
+synthetic_gradients_model_loss: 7.2884e+10
+net loss: 2.2988
+synthetic_gradients_model_loss: 7.28839e+10
+net loss: 2.29904
+synthetic_gradients_model_loss: 7.28837e+10
+net loss: 2.30493
+synthetic_gradients_model_loss: 7.27572e+10
+net loss: 2.3028
+synthetic_gradients_model_loss: 7.27572e+10
+net loss: 2.29995
+synthetic_gradients_model_loss: 7.2757e+10
+net loss: 2.29911
+synthetic_gradients_model_loss: 7.27568e+10
+net loss: 2.29824
+synthetic_gradients_model_loss: 7.27566e+10
+net loss: 2.30473
+synthetic_gradients_model_loss: 7.27564e+10
+net loss: 2.30167
+synthetic_gradients_model_loss: 7.27562e+10
+net loss: 2.30311
+synthetic_gradients_model_loss: 7.27559e+10
+net loss: 2.30186
+synthetic_gradients_model_loss: 7.2882e+10
+net loss: 2.30058
+synthetic_gradients_model_loss: 7.28818e+10
+net loss: 2.29794
+synthetic_gradients_model_loss: 7.28817e+10
+net loss: 2.29829
+synthetic_gradients_model_loss: 7.28818e+10
+net loss: 2.30421
+synthetic_gradients_model_loss: 7.28832e+10
+net loss: 2.30409
+synthetic_gradients_model_loss: 7.28832e+10
+net loss: 2.30643
+synthetic_gradients_model_loss: 7.28832e+10
+net loss: 2.30411
+synthetic_gradients_model_loss: 7.28832e+10
+net loss: 2.30561
+synthetic_gradients_model_loss: 7.28834e+10
+net loss: 2.29875
+synthetic_gradients_model_loss: 7.28818e+10
+net loss: 2.30305
+synthetic_gradients_model_loss: 7.28819e+10
+net loss: 2.30214
+synthetic_gradients_model_loss: 7.28819e+10
+net loss: 2.30321
+synthetic_gradients_model_loss: 7.28818e+10
+net loss: 2.29969
+synthetic_gradients_model_loss: 7.2882e+10
+net loss: 2.29553
+synthetic_gradients_model_loss: 7.2882e+10
+net loss: 2.30036
+synthetic_gradients_model_loss: 7.2882e+10
+net loss: 2.30386
+synthetic_gradients_model_loss: 7.28821e+10
+net loss: 2.30306
+synthetic_gradients_model_loss: 7.2751e+10
+net loss: 2.30656
+synthetic_gradients_model_loss: 7.2751e+10
+net loss: 2.2989
+synthetic_gradients_model_loss: 7.27509e+10
+net loss: 2.30485
+synthetic_gradients_model_loss: 7.2751e+10
+net loss: 2.30165
+synthetic_gradients_model_loss: 7.27509e+10
+net loss: 2.30212
+synthetic_gradients_model_loss: 7.28824e+10
+net loss: 2.3014
+synthetic_gradients_model_loss: 7.28824e+10
+net loss: 2.29854
+synthetic_gradients_model_loss: 7.27515e+10
+net loss: 2.30086
+synthetic_gradients_model_loss: 7.27516e+10
+net loss: 2.3001
+synthetic_gradients_model_loss: 7.27517e+10
+net loss: 2.30311
+synthetic_gradients_model_loss: 7.27518e+10
+net loss: 2.30521
+synthetic_gradients_model_loss: 7.27518e+10
+net loss: 2.2981
+synthetic_gradients_model_loss: 6.81571e+10
+net loss: 2.30365
+synthetic_gradients_model_loss: 6.81572e+10
+net loss: 2.30311
+synthetic_gradients_model_loss: 6.81571e+10
+net loss: 2.30219
+synthetic_gradients_model_loss: 6.81571e+10
+net loss: 2.30682
+synthetic_gradients_model_loss: 6.81571e+10
+net loss: 2.29819
+synthetic_gradients_model_loss: 6.81571e+10
+net loss: 2.29894
+synthetic_gradients_model_loss: 6.81572e+10
+net loss: 2.29666
+synthetic_gradients_model_loss: 6.81571e+10
+net loss: 2.30502
+synthetic_gradients_model_loss: 6.81571e+10
+net loss: 2.30392
+synthetic_gradients_model_loss: 6.81569e+10
+net loss: 2.30129
+synthetic_gradients_model_loss: 7.27629e+10
+net loss: 2.3016
+synthetic_gradients_model_loss: 7.27629e+10
+net loss: 2.29893
+synthetic_gradients_model_loss: 7.27628e+10
+net loss: 2.30237
+synthetic_gradients_model_loss: 7.27628e+10
+net loss: 2.30587
+synthetic_gradients_model_loss: 7.27628e+10
+net loss: 2.3018
+synthetic_gradients_model_loss: 6.81471e+10
+net loss: 2.29689
+synthetic_gradients_model_loss: 6.81471e+10
+net loss: 2.29799
+synthetic_gradients_model_loss: 6.8147e+10
+net loss: 2.29851
+synthetic_gradients_model_loss: 6.81468e+10
+net loss: 2.29604
+synthetic_gradients_model_loss: 6.81468e+10
+net loss: 2.30282
+synthetic_gradients_model_loss: 6.08855e+10
+net loss: 2.30067
+synthetic_gradients_model_loss: 6.08855e+10
+net loss: 2.30773
+synthetic_gradients_model_loss: 6.06346e+10
+net loss: 2.30043
+synthetic_gradients_model_loss: 6.06346e+10
+net loss: 2.30097
+synthetic_gradients_model_loss: 6.06347e+10
+net loss: 2.30106
+synthetic_gradients_model_loss: 6.06347e+10
+net loss: 2.2996
+synthetic_gradients_model_loss: 6.06347e+10
+net loss: 2.30278
+synthetic_gradients_model_loss: 6.06347e+10
+net loss: 2.29509
+synthetic_gradients_model_loss: 6.06347e+10
+net loss: 2.30518
+synthetic_gradients_model_loss: 6.06303e+10
+net loss: 2.30469
+synthetic_gradients_model_loss: 6.06303e+10
+net loss: 2.29984
+synthetic_gradients_model_loss: 6.06303e+10
+net loss: 2.29905
+synthetic_gradients_model_loss: 6.06303e+10
+net loss: 2.30016
+synthetic_gradients_model_loss: 6.06303e+10
+net loss: 2.30115
+synthetic_gradients_model_loss: 6.06303e+10
+net loss: 2.30173
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30164
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30512
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30432
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30512
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.29821
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30027
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30597
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.29939
+synthetic_gradients_model_loss: 6.063e+10
+net loss: 2.30315
+synthetic_gradients_model_loss: 6.063e+10
+net loss: 2.30068
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30336
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30072
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30241
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30245
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30838
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30028
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30734
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.29944
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30045
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.29938
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.297
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30051
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30609
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.29921
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.29668
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30354
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30199
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30285
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30299
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.29979
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.29819
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30358
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.3014
+synthetic_gradients_model_loss: 6.063e+10
+net loss: 2.29726
+synthetic_gradients_model_loss: 6.063e+10
+net loss: 2.29754
+synthetic_gradients_model_loss: 6.063e+10
+net loss: 2.30368
+synthetic_gradients_model_loss: 6.063e+10
+net loss: 2.30139
+synthetic_gradients_model_loss: 6.063e+10
+net loss: 2.29996
+synthetic_gradients_model_loss: 6.063e+10
+net loss: 2.30441
+synthetic_gradients_model_loss: 6.063e+10
+net loss: 2.3019
+synthetic_gradients_model_loss: 6.063e+10
+net loss: 2.30027
+synthetic_gradients_model_loss: 6.063e+10
+net loss: 2.2994
+synthetic_gradients_model_loss: 6.063e+10
+net loss: 2.29999
+synthetic_gradients_model_loss: 6.063e+10
+net loss: 2.30156
+synthetic_gradients_model_loss: 6.063e+10
+net loss: 2.29319
+synthetic_gradients_model_loss: 6.063e+10
+net loss: 2.29866
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.29637
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.30572
+synthetic_gradients_model_loss: 6.06301e+10
+net loss: 2.3002
+synthetic_gradients_model_loss: 6.06302e+10
+net loss: 2.30137
+synthetic_gradients_model_loss: 6.06302e+10
+net loss: 2.30034
+synthetic_gradients_model_loss: 6.06302e+10
+net loss: 2.29843
+synthetic_gradients_model_loss: 6.06303e+10
+net loss: 2.29896
+synthetic_gradients_model_loss: 6.06303e+10
+net loss: 2.30333
+synthetic_gradients_model_loss: 6.06303e+10
+net loss: 2.30019
+synthetic_gradients_model_loss: 6.06303e+10
+net loss: 2.30585
+synthetic_gradients_model_loss: 6.06303e+10
+net loss: 2.2996
+synthetic_gradients_model_loss: 6.06303e+10
+net loss: 2.3051
+synthetic_gradients_model_loss: 6.06303e+10
+net loss: 2.2984
+synthetic_gradients_model_loss: 6.06303e+10
+net loss: 2.29661
+synthetic_gradients_model_loss: 6.06303e+10
+net loss: 2.30294
+synthetic_gradients_model_loss: 6.06303e+10
+net loss: 2.30004
+synthetic_gradients_model_loss: 6.06303e+10
+net loss: 2.29555
+synthetic_gradients_model_loss: 6.06303e+10
+net loss: 2.29766
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.30196
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.30341
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.29758
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.29772
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.30055
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.30589
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.30198
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.2999
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.30777
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.29407
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.297
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.30138
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.29549
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.29787
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.29584
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.30295
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.29154
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.30554
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.30539
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.29863
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.29916
+synthetic_gradients_model_loss: 6.06305e+10
+net loss: 2.2973
+synthetic_gradients_model_loss: 6.06305e+10
+net loss: 2.30468
+synthetic_gradients_model_loss: 6.06306e+10
+net loss: 2.29753
+synthetic_gradients_model_loss: 6.06306e+10
+net loss: 2.30405
+synthetic_gradients_model_loss: 6.06305e+10
+net loss: 2.29646
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.30135
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.29877
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.29886
+synthetic_gradients_model_loss: 6.06305e+10
+net loss: 2.29663
+synthetic_gradients_model_loss: 6.06306e+10
+net loss: 2.29869
+synthetic_gradients_model_loss: 6.06306e+10
+net loss: 2.29914
+synthetic_gradients_model_loss: 6.06306e+10
+net loss: 2.2975
+synthetic_gradients_model_loss: 6.06305e+10
+net loss: 2.29861
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.30812
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.2998
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.29812
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.30616
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.30389
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.29902
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.29824
+synthetic_gradients_model_loss: 6.06304e+10
+net loss: 2.30119
+synthetic_gradients_model_loss: 6.06305e+10
+net loss: 2.29514
+synthetic_gradients_model_loss: 6.06305e+10
+net loss: 2.2979
+synthetic_gradients_model_loss: 6.06305e+10
+net loss: 2.30376
+synthetic_gradients_model_loss: 6.06305e+10
+net loss: 2.30691
+synthetic_gradients_model_loss: 6.06305e+10
+net loss: 2.30489
+synthetic_gradients_model_loss: 6.06305e+10
+net loss: 2.29917
+synthetic_gradients_model_loss: 6.06305e+10
+net loss: 2.29962
+synthetic_gradients_model_loss: 6.06305e+10
+net loss: 2.3036
+synthetic_gradients_model_loss: 6.06305e+10
+net loss: 2.29917
+synthetic_gradients_model_loss: 6.06305e+10
+net loss: 2.30603
+synthetic_gradients_model_loss: 6.06305e+10
+net loss: 2.30299
+synthetic_gradients_model_loss: 6.06305e+10
+net loss: 2.30306
+synthetic_gradients_model_loss: 6.06305e+10
+net loss: 2.3015
+synthetic_gradients_model_loss: 6.06306e+10
+net loss: 2.29384
+synthetic_gradients_model_loss: 6.06306e+10
+net loss: 2.29804
+synthetic_gradients_model_loss: 6.06306e+10
+net loss: 2.297
+synthetic_gradients_model_loss: 6.06307e+10
+net loss: 2.30012
+synthetic_gradients_model_loss: 6.06307e+10
+net loss: 2.30243
+synthetic_gradients_model_loss: 6.06307e+10
+net loss: 2.29825
+synthetic_gradients_model_loss: 6.06307e+10
+net loss: 2.30159
+synthetic_gradients_model_loss: 6.06307e+10
+net loss: 2.30094
+synthetic_gradients_model_loss: 6.06307e+10
+net loss: 2.30087
+synthetic_gradients_model_loss: 6.06315e+10
+net loss: 2.30249
+synthetic_gradients_model_loss: 6.06314e+10
+net loss: 2.30067
+synthetic_gradients_model_loss: 6.06564e+10
+net loss: 2.30767
+synthetic_gradients_model_loss: 6.06564e+10
+net loss: 2.29929
+synthetic_gradients_model_loss: 6.06564e+10
+net loss: 2.29838
+synthetic_gradients_model_loss: 6.06564e+10
+net loss: 2.3035
+synthetic_gradients_model_loss: 6.06564e+10
+net loss: 2.30418
+synthetic_gradients_model_loss: 6.06564e+10
+net loss: 2.3013
+synthetic_gradients_model_loss: 6.06564e+10
+net loss: 2.3021
+synthetic_gradients_model_loss: 6.06564e+10
+net loss: 2.30205
+synthetic_gradients_model_loss: 6.06314e+10
+net loss: 2.30229
+synthetic_gradients_model_loss: 6.06314e+10
+net loss: 2.30985
+synthetic_gradients_model_loss: 6.06314e+10
+net loss: 2.30681
+synthetic_gradients_model_loss: 6.06314e+10
+net loss: 2.29958
+synthetic_gradients_model_loss: 6.06314e+10
+net loss: 2.29814
+synthetic_gradients_model_loss: 6.06314e+10
+net loss: 2.30124
+synthetic_gradients_model_loss: 6.0657e+10
+net loss: 2.30098
+synthetic_gradients_model_loss: 6.0657e+10
+net loss: 2.30045
+synthetic_gradients_model_loss: 6.0657e+10
+net loss: 2.30231
+synthetic_gradients_model_loss: 6.0657e+10
+net loss: 2.30273
+synthetic_gradients_model_loss: 6.0657e+10
+net loss: 2.30733
+synthetic_gradients_model_loss: 6.0657e+10
+net loss: 2.30217
+synthetic_gradients_model_loss: 7.18566e+10
+net loss: 2.29404
+synthetic_gradients_model_loss: 6.06314e+10
+net loss: 2.30584
+synthetic_gradients_model_loss: 6.06511e+10
+net loss: 2.30225
+synthetic_gradients_model_loss: 6.06512e+10
+net loss: 2.30602
+synthetic_gradients_model_loss: 6.06513e+10
+net loss: 2.30566
+synthetic_gradients_model_loss: 6.06513e+10
+net loss: 2.30348
+synthetic_gradients_model_loss: 6.06513e+10
+net loss: 2.30089
+synthetic_gradients_model_loss: 6.06513e+10
+net loss: 2.29998
+synthetic_gradients_model_loss: 6.06514e+10
+net loss: 2.30613
+synthetic_gradients_model_loss: 6.06514e+10
+net loss: 2.30051
+synthetic_gradients_model_loss: 6.06514e+10
+net loss: 2.2947
+synthetic_gradients_model_loss: 6.06513e+10
+net loss: 2.30082
+synthetic_gradients_model_loss: 6.06401e+10
+net loss: 2.3067
+synthetic_gradients_model_loss: 6.06486e+10
+net loss: 2.29674
+synthetic_gradients_model_loss: 6.06486e+10
+net loss: 2.30179
+synthetic_gradients_model_loss: 6.06487e+10
+net loss: 2.30152
+synthetic_gradients_model_loss: 6.06487e+10
+net loss: 2.2983
+synthetic_gradients_model_loss: 6.06487e+10
+net loss: 2.30051
+synthetic_gradients_model_loss: 6.06487e+10
+net loss: 2.30787
+synthetic_gradients_model_loss: 6.06487e+10
+net loss: 2.30514
+synthetic_gradients_model_loss: 6.30798e+10
+net loss: 2.29996
+synthetic_gradients_model_loss: 6.30797e+10
+net loss: 2.30778
+synthetic_gradients_model_loss: 6.30796e+10
+net loss: 2.30378
+synthetic_gradients_model_loss: 6.30795e+10
+net loss: 2.30177
+synthetic_gradients_model_loss: 7.40926e+10
+net loss: 2.30392
+synthetic_gradients_model_loss: 7.40925e+10
+net loss: 2.29871
+synthetic_gradients_model_loss: 7.40925e+10
+net loss: 2.30334
+synthetic_gradients_model_loss: 7.40926e+10
+net loss: 2.29887
+synthetic_gradients_model_loss: 7.40925e+10
+net loss: 2.3071
+synthetic_gradients_model_loss: 7.40925e+10
+net loss: 2.29615
+synthetic_gradients_model_loss: 7.40924e+10
+net loss: 2.30598
+synthetic_gradients_model_loss: 6.49768e+10
+net loss: 2.2978
+synthetic_gradients_model_loss: 6.49768e+10
+net loss: 2.30286
+synthetic_gradients_model_loss: 6.49769e+10
+net loss: 2.30373
+synthetic_gradients_model_loss: 6.49772e+10
+net loss: 2.30154
+synthetic_gradients_model_loss: 6.49773e+10
+net loss: 2.30157
+synthetic_gradients_model_loss: 6.49774e+10
+net loss: 2.29164
+synthetic_gradients_model_loss: 7.28997e+10
+net loss: 2.30204
+synthetic_gradients_model_loss: 7.28998e+10
+net loss: 2.29807
+synthetic_gradients_model_loss: 7.28998e+10
+net loss: 2.30321
+synthetic_gradients_model_loss: 7.28999e+10
+net loss: 2.31241
+synthetic_gradients_model_loss: 7.29001e+10
+net loss: 2.30815
+synthetic_gradients_model_loss: 7.29001e+10
+net loss: 2.30015
+synthetic_gradients_model_loss: 6.62966e+10
+net loss: 2.30096
+synthetic_gradients_model_loss: 6.62966e+10
+net loss: 2.30387
+synthetic_gradients_model_loss: 6.62967e+10
+net loss: 2.30129
+synthetic_gradients_model_loss: 6.62967e+10
+net loss: 2.30177
+synthetic_gradients_model_loss: 7.21125e+10
+net loss: 2.30293
+synthetic_gradients_model_loss: 7.21127e+10
+net loss: 2.30055
+synthetic_gradients_model_loss: 7.21128e+10
+net loss: 2.29425
+synthetic_gradients_model_loss: 7.2113e+10
+net loss: 2.30044
+synthetic_gradients_model_loss: 7.21134e+10
+net loss: 2.29197
+synthetic_gradients_model_loss: 7.21136e+10
+net loss: 2.29898
+synthetic_gradients_model_loss: 7.35175e+10
+net loss: 2.29201
+synthetic_gradients_model_loss: 7.35176e+10
+net loss: 2.29815
+synthetic_gradients_model_loss: 7.35177e+10
+net loss: 2.30266
+synthetic_gradients_model_loss: 7.35177e+10
+net loss: 2.29799
+synthetic_gradients_model_loss: 7.35177e+10
+net loss: 2.30431
+synthetic_gradients_model_loss: 7.35178e+10
+net loss: 2.29966
+synthetic_gradients_model_loss: 7.35178e+10
+net loss: 2.29571
+synthetic_gradients_model_loss: 7.24462e+10
+net loss: 2.30511
+synthetic_gradients_model_loss: 7.24464e+10
+net loss: 2.30481
+synthetic_gradients_model_loss: 7.24463e+10
+net loss: 2.29971
+synthetic_gradients_model_loss: 7.24463e+10
+net loss: 2.30515
+synthetic_gradients_model_loss: 6.96398e+10
+net loss: 2.30326
+synthetic_gradients_model_loss: 6.96398e+10
+net loss: 2.29572
+synthetic_gradients_model_loss: 6.96397e+10
+net loss: 2.30654
+synthetic_gradients_model_loss: 6.96396e+10
+net loss: 2.30261
+synthetic_gradients_model_loss: 6.96396e+10
+net loss: 2.29772
+synthetic_gradients_model_loss: 6.96396e+10
+net loss: 2.30039
+synthetic_gradients_model_loss: 6.96397e+10
+net loss: 2.30326
+synthetic_gradients_model_loss: 6.96397e+10
+net loss: 2.30394
+synthetic_gradients_model_loss: 7.21457e+10
+net loss: 2.30601
+synthetic_gradients_model_loss: 7.21455e+10
+net loss: 2.3047
+synthetic_gradients_model_loss: 7.21454e+10
+net loss: 2.29924
+synthetic_gradients_model_loss: 7.21452e+10
+net loss: 2.30353
+synthetic_gradients_model_loss: 7.43796e+10
+net loss: 2.30138
+synthetic_gradients_model_loss: 7.43796e+10
+net loss: 2.30642
+synthetic_gradients_model_loss: 7.43797e+10
+net loss: 2.30393
+synthetic_gradients_model_loss: 7.43896e+10
+net loss: 2.30334
+synthetic_gradients_model_loss: 7.43895e+10
+net loss: 2.30752
+synthetic_gradients_model_loss: 7.43896e+10
+net loss: 2.30487
+synthetic_gradients_model_loss: 7.43897e+10
+net loss: 2.29797
+synthetic_gradients_model_loss: 7.43897e+10
+net loss: 2.30198
+synthetic_gradients_model_loss: 7.43898e+10
+net loss: 2.30899
+synthetic_gradients_model_loss: 7.43898e+10
+net loss: 2.29753
+synthetic_gradients_model_loss: 7.43898e+10
+net loss: 2.3066
+synthetic_gradients_model_loss: 7.439e+10
+net loss: 2.30331
+synthetic_gradients_model_loss: 7.439e+10
+net loss: 2.30351
+synthetic_gradients_model_loss: 7.43901e+10
+net loss: 2.29894
+synthetic_gradients_model_loss: 7.43901e+10
+net loss: 2.29761
+synthetic_gradients_model_loss: 7.43901e+10
+net loss: 2.30434
+synthetic_gradients_model_loss: 7.43902e+10
+net loss: 2.30387
+synthetic_gradients_model_loss: 7.43901e+10
+net loss: 2.29722
+synthetic_gradients_model_loss: 7.43902e+10
+net loss: 2.30313
+synthetic_gradients_model_loss: 7.43903e+10
+net loss: 2.30155
+synthetic_gradients_model_loss: 7.43903e+10
+net loss: 2.30658
+synthetic_gradients_model_loss: 7.43903e+10
+net loss: 2.2991
+synthetic_gradients_model_loss: 7.43905e+10
+net loss: 2.30437
+synthetic_gradients_model_loss: 7.43905e+10
+net loss: 2.29944
+synthetic_gradients_model_loss: 7.43873e+10
+net loss: 2.30439
+synthetic_gradients_model_loss: 7.43875e+10
+net loss: 2.3065
+synthetic_gradients_model_loss: 7.43875e+10
+net loss: 2.29993
+synthetic_gradients_model_loss: 7.43874e+10
+net loss: 2.29929
+synthetic_gradients_model_loss: 7.43873e+10
+net loss: 2.29737
+synthetic_gradients_model_loss: 7.41331e+10
+net loss: 2.29836
+synthetic_gradients_model_loss: 7.41329e+10
+net loss: 2.29874
+synthetic_gradients_model_loss: 7.41328e+10
+net loss: 2.30706
+synthetic_gradients_model_loss: 7.41327e+10
+net loss: 2.30285
+synthetic_gradients_model_loss: 7.43872e+10
+net loss: 2.29872
+synthetic_gradients_model_loss: 7.43872e+10
+net loss: 2.29821
+synthetic_gradients_model_loss: 7.43871e+10
+net loss: 2.30286
+synthetic_gradients_model_loss: 7.4387e+10
+net loss: 2.29608
+synthetic_gradients_model_loss: 7.43869e+10
+net loss: 2.30012
+synthetic_gradients_model_loss: 7.43902e+10
+net loss: 2.30293
+synthetic_gradients_model_loss: 7.43901e+10
+net loss: 2.29657
+synthetic_gradients_model_loss: 7.439e+10
+net loss: 2.29814
+synthetic_gradients_model_loss: 7.439e+10
+net loss: 2.29696
+synthetic_gradients_model_loss: 7.4384e+10
+net loss: 2.29566
+synthetic_gradients_model_loss: 7.4384e+10
+net loss: 2.30045
+synthetic_gradients_model_loss: 7.4384e+10
+net loss: 2.29386
+synthetic_gradients_model_loss: 7.43839e+10
+net loss: 2.29856
+synthetic_gradients_model_loss: 7.43839e+10
+net loss: 2.30421
+synthetic_gradients_model_loss: 7.43839e+10
+net loss: 2.29868
+synthetic_gradients_model_loss: 7.43839e+10
+net loss: 2.29765
+synthetic_gradients_model_loss: 7.40477e+10
+net loss: 2.30789
+synthetic_gradients_model_loss: 7.40477e+10
+net loss: 2.30557
+synthetic_gradients_model_loss: 7.40477e+10
+net loss: 2.30088
+synthetic_gradients_model_loss: 7.40478e+10
+net loss: 2.30306
+synthetic_gradients_model_loss: 7.23686e+10
+net loss: 2.30307
+synthetic_gradients_model_loss: 7.23687e+10
+net loss: 2.30188
+synthetic_gradients_model_loss: 7.23688e+10
+net loss: 2.2936
+synthetic_gradients_model_loss: 7.23687e+10
+net loss: 2.30206
+synthetic_gradients_model_loss: 7.23688e+10
+net loss: 2.30053
+synthetic_gradients_model_loss: 7.23688e+10
+net loss: 2.30263
+synthetic_gradients_model_loss: 7.23688e+10
+net loss: 2.3021
+synthetic_gradients_model_loss: 7.23688e+10
+net loss: 2.29864
+synthetic_gradients_model_loss: 7.23688e+10
+net loss: 2.30113
+synthetic_gradients_model_loss: 7.23688e+10
+net loss: 2.30474
+synthetic_gradients_model_loss: 7.40507e+10
+net loss: 2.2947
+synthetic_gradients_model_loss: 7.40508e+10
+net loss: 2.30251
+synthetic_gradients_model_loss: 7.40509e+10
+net loss: 2.29696
+synthetic_gradients_model_loss: 7.43848e+10
+net loss: 2.29808
+synthetic_gradients_model_loss: 7.43849e+10
+net loss: 2.2995
+synthetic_gradients_model_loss: 7.43848e+10
+net loss: 2.29066
+synthetic_gradients_model_loss: 7.43848e+10
+net loss: 2.30313
+synthetic_gradients_model_loss: 7.43847e+10
+net loss: 2.30211
+synthetic_gradients_model_loss: 7.43848e+10
+net loss: 2.29857
+synthetic_gradients_model_loss: 7.40506e+10
+net loss: 2.29705
+synthetic_gradients_model_loss: 7.40505e+10
+net loss: 2.30601
+synthetic_gradients_model_loss: 7.40505e+10
+net loss: 2.30643
+synthetic_gradients_model_loss: 7.40505e+10
+net loss: 2.30799
+synthetic_gradients_model_loss: 7.40504e+10
+net loss: 2.3025
+synthetic_gradients_model_loss: 7.43852e+10
+net loss: 2.2941
+synthetic_gradients_model_loss: 7.43852e+10
+net loss: 2.2978
+synthetic_gradients_model_loss: 7.43851e+10
+net loss: 2.30383
+synthetic_gradients_model_loss: 7.43851e+10
+net loss: 2.30443
+synthetic_gradients_model_loss: 7.43851e+10
+net loss: 2.29943
+synthetic_gradients_model_loss: 7.4385e+10
+net loss: 2.30321
+synthetic_gradients_model_loss: 7.4385e+10
+net loss: 2.30209
+synthetic_gradients_model_loss: 7.4385e+10
+net loss: 2.30216
+synthetic_gradients_model_loss: 7.4391e+10
+net loss: 2.3025
+synthetic_gradients_model_loss: 7.4385e+10
+net loss: 2.30735
+synthetic_gradients_model_loss: 7.4385e+10
+net loss: 2.3038
+synthetic_gradients_model_loss: 7.43851e+10
+net loss: 2.30164
+synthetic_gradients_model_loss: 7.43851e+10
+net loss: 2.30147
+synthetic_gradients_model_loss: 7.4385e+10
+net loss: 2.30009
+synthetic_gradients_model_loss: 7.4385e+10
+net loss: 2.29381
+synthetic_gradients_model_loss: 7.43851e+10
+net loss: 2.29913
+synthetic_gradients_model_loss: 7.43851e+10
+net loss: 2.29537
+synthetic_gradients_model_loss: 7.43852e+10
+net loss: 2.30455
+synthetic_gradients_model_loss: 7.43852e+10
+net loss: 2.29907
+synthetic_gradients_model_loss: 7.4058e+10
+net loss: 2.306
+synthetic_gradients_model_loss: 7.40581e+10
+net loss: 2.30657
+synthetic_gradients_model_loss: 7.40581e+10
+net loss: 2.29655
+synthetic_gradients_model_loss: 7.2348e+10
+net loss: 2.30113
+synthetic_gradients_model_loss: 7.2348e+10
+net loss: 2.29821
+synthetic_gradients_model_loss: 7.2348e+10
+net loss: 2.29736
+synthetic_gradients_model_loss: 7.2348e+10
+net loss: 2.29625
+synthetic_gradients_model_loss: 7.2348e+10
+net loss: 2.30466
+synthetic_gradients_model_loss: 7.2348e+10
+net loss: 2.30553
+synthetic_gradients_model_loss: 7.23481e+10
+net loss: 2.30354
+synthetic_gradients_model_loss: 7.18011e+10
+net loss: 2.30582
+synthetic_gradients_model_loss: 7.18012e+10
+net loss: 2.29869
+synthetic_gradients_model_loss: 7.18014e+10
+net loss: 2.30029
+synthetic_gradients_model_loss: 7.18013e+10
+net loss: 2.29856
+synthetic_gradients_model_loss: 7.18014e+10
+net loss: 2.30048
+synthetic_gradients_model_loss: 7.18013e+10
+net loss: 2.30092
+synthetic_gradients_model_loss: 7.15961e+10
+net loss: 2.298
+synthetic_gradients_model_loss: 7.15962e+10
+net loss: 2.30089
+synthetic_gradients_model_loss: 7.15962e+10
+net loss: 2.29842
+synthetic_gradients_model_loss: 7.18062e+10
+net loss: 2.30134
+synthetic_gradients_model_loss: 7.18061e+10
+net loss: 2.30239
+synthetic_gradients_model_loss: 7.18061e+10
+net loss: 2.30086
+synthetic_gradients_model_loss: 7.1806e+10
+net loss: 2.30071
+synthetic_gradients_model_loss: 7.1806e+10
+net loss: 2.30594
+synthetic_gradients_model_loss: 7.1806e+10
+net loss: 2.30382
+synthetic_gradients_model_loss: 7.18059e+10
+net loss: 2.29946
+synthetic_gradients_model_loss: 7.18058e+10
+net loss: 2.30578
+synthetic_gradients_model_loss: 7.23828e+10
+net loss: 2.29698
+synthetic_gradients_model_loss: 7.23829e+10
+net loss: 2.30051
+synthetic_gradients_model_loss: 7.2383e+10
+net loss: 2.3012
+synthetic_gradients_model_loss: 7.23831e+10
+net loss: 2.29659
+synthetic_gradients_model_loss: 7.23832e+10
+net loss: 2.30086
+synthetic_gradients_model_loss: 7.41282e+10
+net loss: 2.30079
+synthetic_gradients_model_loss: 7.41283e+10
+net loss: 2.30671
+synthetic_gradients_model_loss: 7.41283e+10
+net loss: 2.30252
+synthetic_gradients_model_loss: 7.41283e+10
+net loss: 2.30036
+synthetic_gradients_model_loss: 7.41281e+10
+net loss: 2.29783
+synthetic_gradients_model_loss: 7.43933e+10
+net loss: 2.29911
+synthetic_gradients_model_loss: 7.43934e+10
+net loss: 2.30714
+synthetic_gradients_model_loss: 7.43935e+10
+net loss: 2.29749
+synthetic_gradients_model_loss: 7.43934e+10
+net loss: 2.3064
+synthetic_gradients_model_loss: 7.41273e+10
+net loss: 2.29998
+synthetic_gradients_model_loss: 7.41272e+10
+net loss: 2.3026
+synthetic_gradients_model_loss: 7.41273e+10
+net loss: 2.3059
+synthetic_gradients_model_loss: 7.41272e+10
+net loss: 2.30065
+synthetic_gradients_model_loss: 7.41271e+10
+net loss: 2.30066
+synthetic_gradients_model_loss: 7.41272e+10
+net loss: 2.29838
+synthetic_gradients_model_loss: 7.41272e+10
+net loss: 2.30494
+synthetic_gradients_model_loss: 7.41271e+10
+net loss: 2.29778
+synthetic_gradients_model_loss: 7.4393e+10
+net loss: 2.29333
+synthetic_gradients_model_loss: 7.43929e+10
+net loss: 2.29878
+synthetic_gradients_model_loss: 7.43929e+10
+net loss: 2.29973
+synthetic_gradients_model_loss: 7.4393e+10
+net loss: 2.29959
+synthetic_gradients_model_loss: 7.4393e+10
+net loss: 2.30378
+synthetic_gradients_model_loss: 7.43966e+10
+net loss: 2.30205
+synthetic_gradients_model_loss: 7.43966e+10
+net loss: 2.30432
+synthetic_gradients_model_loss: 7.43966e+10
+net loss: 2.29713
+synthetic_gradients_model_loss: 7.43966e+10
+net loss: 2.2982
+synthetic_gradients_model_loss: 7.43966e+10
+net loss: 2.30606
+synthetic_gradients_model_loss: 7.43859e+10
+net loss: 2.30733
+synthetic_gradients_model_loss: 7.4386e+10
+net loss: 2.30357
+synthetic_gradients_model_loss: 7.4386e+10
+net loss: 2.29977
+synthetic_gradients_model_loss: 7.43968e+10
+net loss: 2.30119
+synthetic_gradients_model_loss: 7.43968e+10
+net loss: 2.29597
+synthetic_gradients_model_loss: 7.43968e+10
+net loss: 2.2996
+synthetic_gradients_model_loss: 7.43966e+10
+net loss: 2.29694
+synthetic_gradients_model_loss: 7.43964e+10
+net loss: 2.30037
+synthetic_gradients_model_loss: 7.43966e+10
+net loss: 2.30117
+synthetic_gradients_model_loss: 7.43966e+10
+net loss: 2.29401
+synthetic_gradients_model_loss: 7.43835e+10
+net loss: 2.30537
+synthetic_gradients_model_loss: 7.43835e+10
+net loss: 2.29807
+synthetic_gradients_model_loss: 7.43836e+10
+net loss: 2.29724
+synthetic_gradients_model_loss: 7.43837e+10
+net loss: 2.30245
+synthetic_gradients_model_loss: 7.43837e+10
+net loss: 2.3023
+synthetic_gradients_model_loss: 7.43837e+10
+net loss: 2.30734
+synthetic_gradients_model_loss: 7.43836e+10
+net loss: 2.3026
+synthetic_gradients_model_loss: 7.39502e+10
+net loss: 2.30534
+synthetic_gradients_model_loss: 7.39502e+10
+net loss: 2.29873
+synthetic_gradients_model_loss: 7.39501e+10
+net loss: 2.30468
+synthetic_gradients_model_loss: 7.24015e+10
+net loss: 2.30599
+synthetic_gradients_model_loss: 7.24014e+10
+net loss: 2.29752
+synthetic_gradients_model_loss: 7.24015e+10
+net loss: 2.30952
+synthetic_gradients_model_loss: 7.24015e+10
+net loss: 2.30394
+synthetic_gradients_model_loss: 7.24016e+10
+net loss: 2.29716
+synthetic_gradients_model_loss: 7.24017e+10
+net loss: 2.29946
+synthetic_gradients_model_loss: 7.24017e+10
+net loss: 2.29753
+synthetic_gradients_model_loss: 7.24017e+10
+net loss: 2.29252
+synthetic_gradients_model_loss: 7.24016e+10
+net loss: 2.29186
+synthetic_gradients_model_loss: 7.18317e+10
+net loss: 2.30724
+synthetic_gradients_model_loss: 7.18317e+10
+net loss: 2.30515
+synthetic_gradients_model_loss: 7.1569e+10
+net loss: 2.30272
+synthetic_gradients_model_loss: 7.15691e+10
+net loss: 2.30228
+synthetic_gradients_model_loss: 7.15691e+10
+net loss: 2.3046
+synthetic_gradients_model_loss: 7.15692e+10
+net loss: 2.30341
+synthetic_gradients_model_loss: 7.15692e+10
+net loss: 2.30937
+synthetic_gradients_model_loss: 7.12971e+10
+net loss: 2.3076
+synthetic_gradients_model_loss: 7.12971e+10
+net loss: 2.30207
+synthetic_gradients_model_loss: 7.12971e+10
+net loss: 2.29778
+synthetic_gradients_model_loss: 7.12972e+10
+net loss: 2.30535
+synthetic_gradients_model_loss: 7.12971e+10
+net loss: 2.30166
+synthetic_gradients_model_loss: 7.12972e+10
+net loss: 2.30666
+synthetic_gradients_model_loss: 7.12972e+10
+net loss: 2.30109
+synthetic_gradients_model_loss: 7.15724e+10
+net loss: 2.30106
+synthetic_gradients_model_loss: 7.15725e+10
+net loss: 2.30547
+synthetic_gradients_model_loss: 7.15725e+10
+net loss: 2.29463
+synthetic_gradients_model_loss: 7.15724e+10
+net loss: 2.30113
+synthetic_gradients_model_loss: 7.15724e+10
+net loss: 2.29793
+synthetic_gradients_model_loss: 7.18399e+10
+net loss: 2.3021
+synthetic_gradients_model_loss: 7.18399e+10
+net loss: 2.30402
+synthetic_gradients_model_loss: 7.18399e+10
+net loss: 2.3038
+synthetic_gradients_model_loss: 7.18399e+10
+net loss: 2.30974
+synthetic_gradients_model_loss: 7.184e+10
+net loss: 2.30536
+synthetic_gradients_model_loss: 7.18399e+10
+net loss: 2.30131
+synthetic_gradients_model_loss: 7.184e+10
+net loss: 2.29822
+synthetic_gradients_model_loss: 7.18399e+10
+net loss: 2.29621
+synthetic_gradients_model_loss: 7.15726e+10
+net loss: 2.3017
+synthetic_gradients_model_loss: 7.12984e+10
+net loss: 2.30052
+synthetic_gradients_model_loss: 7.12984e+10
+net loss: 2.29886
+synthetic_gradients_model_loss: 7.12985e+10
+net loss: 2.30596
+synthetic_gradients_model_loss: 7.12985e+10
+net loss: 2.30815
+synthetic_gradients_model_loss: 7.12985e+10
+net loss: 2.303
+synthetic_gradients_model_loss: 7.08246e+10
+net loss: 2.29578
+synthetic_gradients_model_loss: 7.08248e+10
+net loss: 2.30385
+synthetic_gradients_model_loss: 7.08248e+10
+net loss: 2.29543
+synthetic_gradients_model_loss: 7.08248e+10
+net loss: 2.30143
+synthetic_gradients_model_loss: 7.08249e+10
+net loss: 2.30113
+synthetic_gradients_model_loss: 7.0825e+10
+net loss: 2.29976
+synthetic_gradients_model_loss: 7.08251e+10
+net loss: 2.30316
+synthetic_gradients_model_loss: 7.08251e+10
+net loss: 2.30044
+synthetic_gradients_model_loss: 7.13015e+10
+net loss: 2.30957
+synthetic_gradients_model_loss: 7.13015e+10
+net loss: 2.30326
+synthetic_gradients_model_loss: 7.13015e+10
+net loss: 2.30104
+synthetic_gradients_model_loss: 7.13015e+10
+net loss: 2.30702
+synthetic_gradients_model_loss: 7.13015e+10
+net loss: 2.30766
+synthetic_gradients_model_loss: 7.13015e+10
+net loss: 2.29508
+synthetic_gradients_model_loss: 7.08256e+10
+net loss: 2.30746
+synthetic_gradients_model_loss: 7.08257e+10
+net loss: 2.30298
+synthetic_gradients_model_loss: 7.08256e+10
+net loss: 2.3057
+synthetic_gradients_model_loss: 7.08256e+10
+net loss: 2.3065
+synthetic_gradients_model_loss: 7.08257e+10
+net loss: 2.29923
+synthetic_gradients_model_loss: 7.08257e+10
+net loss: 2.29331
+synthetic_gradients_model_loss: 7.13017e+10
+net loss: 2.30155
+synthetic_gradients_model_loss: 7.13016e+10
+net loss: 2.29987
+synthetic_gradients_model_loss: 7.13017e+10
+net loss: 2.30246
+synthetic_gradients_model_loss: 7.15775e+10
+net loss: 2.30494
+synthetic_gradients_model_loss: 7.15776e+10
+net loss: 2.30083
+synthetic_gradients_model_loss: 7.15776e+10
+net loss: 2.2979
+synthetic_gradients_model_loss: 7.15777e+10
+net loss: 2.3041
+synthetic_gradients_model_loss: 7.15778e+10
+net loss: 2.29577
+synthetic_gradients_model_loss: 7.15779e+10
+net loss: 2.29596
+synthetic_gradients_model_loss: 7.15779e+10
+net loss: 2.30093
+synthetic_gradients_model_loss: 7.13022e+10
+net loss: 2.30406
+synthetic_gradients_model_loss: 7.13022e+10
+net loss: 2.30406
+synthetic_gradients_model_loss: 7.13022e+10
+net loss: 2.29789
+synthetic_gradients_model_loss: 7.13022e+10
+net loss: 2.30771
+synthetic_gradients_model_loss: 7.15781e+10
+net loss: 2.29551
+synthetic_gradients_model_loss: 7.15781e+10
+net loss: 2.29694
+synthetic_gradients_model_loss: 7.15781e+10
+net loss: 2.30389
+synthetic_gradients_model_loss: 7.1578e+10
+net loss: 2.30231
+synthetic_gradients_model_loss: 7.1578e+10
+net loss: 2.30596
+synthetic_gradients_model_loss: 7.1578e+10
+net loss: 2.29706
+synthetic_gradients_model_loss: 7.18477e+10
+net loss: 2.30023
+synthetic_gradients_model_loss: 7.18477e+10
+net loss: 2.29687
+synthetic_gradients_model_loss: 7.18477e+10
+net loss: 2.29849
+synthetic_gradients_model_loss: 7.18477e+10
+net loss: 2.29839
+synthetic_gradients_model_loss: 7.24544e+10
+net loss: 2.30743
+synthetic_gradients_model_loss: 7.24545e+10
+net loss: 2.30189
+synthetic_gradients_model_loss: 7.24546e+10
+net loss: 2.30757
+synthetic_gradients_model_loss: 7.24546e+10
+net loss: 2.30082
+synthetic_gradients_model_loss: 7.24546e+10
+net loss: 2.29589
+synthetic_gradients_model_loss: 7.24547e+10
+net loss: 2.29898
+synthetic_gradients_model_loss: 7.24546e+10
+net loss: 2.30219
+synthetic_gradients_model_loss: 7.40911e+10
+net loss: 2.30177
+synthetic_gradients_model_loss: 7.18479e+10
+net loss: 2.30033
+synthetic_gradients_model_loss: 7.18479e+10
+net loss: 2.29679
+synthetic_gradients_model_loss: 7.18479e+10
+net loss: 2.29353
+synthetic_gradients_model_loss: 7.18479e+10
+net loss: 2.30079
+synthetic_gradients_model_loss: 7.18478e+10
+net loss: 2.29567
+synthetic_gradients_model_loss: 7.18478e+10
+net loss: 2.30086
+synthetic_gradients_model_loss: 7.18478e+10
+net loss: 2.3018
+synthetic_gradients_model_loss: 7.18478e+10
+net loss: 2.29771
+synthetic_gradients_model_loss: 7.24537e+10
+net loss: 2.30107
+synthetic_gradients_model_loss: 7.24538e+10
+net loss: 2.2981
+synthetic_gradients_model_loss: 7.24541e+10
+net loss: 2.2961
+synthetic_gradients_model_loss: 7.40416e+10
+net loss: 2.29749
+synthetic_gradients_model_loss: 7.40416e+10
+net loss: 2.29837
+synthetic_gradients_model_loss: 7.40417e+10
+net loss: 2.30595
+synthetic_gradients_model_loss: 7.40416e+10
+net loss: 2.30047
+synthetic_gradients_model_loss: 7.24548e+10
+net loss: 2.30227
+synthetic_gradients_model_loss: 7.24548e+10
+net loss: 2.29792
+synthetic_gradients_model_loss: 7.24548e+10
+net loss: 2.29609
+synthetic_gradients_model_loss: 7.24548e+10
+net loss: 2.29811
+synthetic_gradients_model_loss: 7.24548e+10
+net loss: 2.2922
+synthetic_gradients_model_loss: 7.24548e+10
+net loss: 2.30138
+synthetic_gradients_model_loss: 7.24548e+10
+net loss: 2.30372
+synthetic_gradients_model_loss: 7.24548e+10
+net loss: 2.29809
+synthetic_gradients_model_loss: 7.40503e+10
+net loss: 2.2993
+synthetic_gradients_model_loss: 7.40503e+10
+net loss: 2.2947
+synthetic_gradients_model_loss: 7.40503e+10
+net loss: 2.29913
+synthetic_gradients_model_loss: 7.40502e+10
+net loss: 2.2958
+synthetic_gradients_model_loss: 7.40502e+10
+net loss: 2.29957
+synthetic_gradients_model_loss: 7.40502e+10
+net loss: 2.30432
+synthetic_gradients_model_loss: 7.24549e+10
+net loss: 2.29446
+synthetic_gradients_model_loss: 7.2455e+10
+net loss: 2.30425
+synthetic_gradients_model_loss: 7.24551e+10
+net loss: 2.29816
+synthetic_gradients_model_loss: 7.18472e+10
+net loss: 2.29679
+synthetic_gradients_model_loss: 7.18472e+10
+net loss: 2.30233
+synthetic_gradients_model_loss: 7.18471e+10
+net loss: 2.30262
+synthetic_gradients_model_loss: 7.18472e+10
+net loss: 2.30518
+synthetic_gradients_model_loss: 7.18472e+10
+net loss: 2.28917
+synthetic_gradients_model_loss: 7.18472e+10
+net loss: 2.30333
+synthetic_gradients_model_loss: 7.18473e+10
+net loss: 2.30226
+synthetic_gradients_model_loss: 7.18473e+10
+net loss: 2.30319
+synthetic_gradients_model_loss: 7.18474e+10
+net loss: 2.30717
+synthetic_gradients_model_loss: 7.24664e+10
+net loss: 2.31194
+synthetic_gradients_model_loss: 7.24665e+10
+net loss: 2.3002
+synthetic_gradients_model_loss: 7.40782e+10
+net loss: 2.29898
+synthetic_gradients_model_loss: 7.40784e+10
+net loss: 2.29902
+synthetic_gradients_model_loss: 7.40783e+10
+net loss: 2.30059
+synthetic_gradients_model_loss: 7.40783e+10
+net loss: 2.30464
+synthetic_gradients_model_loss: 7.40783e+10
+net loss: 2.30012
+synthetic_gradients_model_loss: 7.40783e+10
+net loss: 2.31234
+synthetic_gradients_model_loss: 7.40783e+10
+net loss: 2.29485
+synthetic_gradients_model_loss: 7.40783e+10
+net loss: 2.30344
+synthetic_gradients_model_loss: 7.40782e+10
+net loss: 2.30179
+synthetic_gradients_model_loss: 7.24673e+10
+net loss: 2.30158
+synthetic_gradients_model_loss: 7.24672e+10
+net loss: 2.30284
+synthetic_gradients_model_loss: 7.24672e+10
+net loss: 2.29496
+synthetic_gradients_model_loss: 7.24672e+10
+net loss: 2.30805
+synthetic_gradients_model_loss: 7.24673e+10
+net loss: 2.30659
+synthetic_gradients_model_loss: 7.40714e+10
+net loss: 2.29135
+synthetic_gradients_model_loss: 7.40714e+10
+net loss: 2.30008
+synthetic_gradients_model_loss: 7.40715e+10
+net loss: 2.29969
+synthetic_gradients_model_loss: 7.40714e+10
+net loss: 2.29901
+synthetic_gradients_model_loss: 7.40714e+10
+net loss: 2.29251
+synthetic_gradients_model_loss: 7.24669e+10
+net loss: 2.30215
+synthetic_gradients_model_loss: 7.24668e+10
+net loss: 2.29262
+synthetic_gradients_model_loss: 7.24668e+10
+net loss: 2.30296
+synthetic_gradients_model_loss: 7.18509e+10
+net loss: 2.29945
+synthetic_gradients_model_loss: 7.18509e+10
+net loss: 2.29726
+synthetic_gradients_model_loss: 7.18508e+10
+net loss: 2.30143
+synthetic_gradients_model_loss: 7.18507e+10
+net loss: 2.29825
+synthetic_gradients_model_loss: 7.18506e+10
+net loss: 2.30395
+synthetic_gradients_model_loss: 7.15807e+10
+net loss: 2.31018
+synthetic_gradients_model_loss: 7.15806e+10
+net loss: 2.30114
+synthetic_gradients_model_loss: 7.15806e+10
+net loss: 2.30074
+synthetic_gradients_model_loss: 7.15806e+10
+net loss: 2.29325
+synthetic_gradients_model_loss: 7.15806e+10
+net loss: 2.29754
+synthetic_gradients_model_loss: 7.18614e+10
+net loss: 2.3065
+synthetic_gradients_model_loss: 7.18613e+10
+net loss: 2.29659
+synthetic_gradients_model_loss: 7.18614e+10
+net loss: 2.29972
+synthetic_gradients_model_loss: 7.18613e+10
+net loss: 2.2928
+synthetic_gradients_model_loss: 7.18614e+10
+net loss: 2.30098
+synthetic_gradients_model_loss: 7.18614e+10
+net loss: 2.29931
+synthetic_gradients_model_loss: 7.18613e+10
+net loss: 2.29958
+synthetic_gradients_model_loss: 7.18613e+10
+net loss: 2.29772
+synthetic_gradients_model_loss: 7.18613e+10
+net loss: 2.3059
+synthetic_gradients_model_loss: 7.25184e+10
+net loss: 2.30424
+synthetic_gradients_model_loss: 7.25182e+10
+net loss: 2.30071
+synthetic_gradients_model_loss: 7.25181e+10
+net loss: 2.29475
+synthetic_gradients_model_loss: 7.25179e+10
+net loss: 2.29832
+synthetic_gradients_model_loss: 7.25179e+10
+net loss: 2.3064
+synthetic_gradients_model_loss: 7.41765e+10
+net loss: 2.30055
+synthetic_gradients_model_loss: 7.41764e+10
+net loss: 2.3035
+synthetic_gradients_model_loss: 7.41764e+10
+net loss: 2.29343
+synthetic_gradients_model_loss: 7.44076e+10
+net loss: 2.30754
+synthetic_gradients_model_loss: 7.44076e+10
+net loss: 2.29828
+synthetic_gradients_model_loss: 7.44076e+10
+net loss: 2.3014
+synthetic_gradients_model_loss: 7.44077e+10
+net loss: 2.30685
+synthetic_gradients_model_loss: 7.44077e+10
+net loss: 2.30182
+synthetic_gradients_model_loss: 7.44075e+10
+net loss: 2.29765
+synthetic_gradients_model_loss: 7.44074e+10
+net loss: 2.30265
+synthetic_gradients_model_loss: 7.44075e+10
+net loss: 2.30186
+synthetic_gradients_model_loss: 7.44074e+10
+net loss: 2.2948
+synthetic_gradients_model_loss: 7.44123e+10
+net loss: 2.29638
+synthetic_gradients_model_loss: 7.44123e+10
+net loss: 2.3047
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.3072
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.30033
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.3077
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.30249
+synthetic_gradients_model_loss: 7.43585e+10
+net loss: 2.302
+synthetic_gradients_model_loss: 7.43586e+10
+net loss: 2.30441
+synthetic_gradients_model_loss: 7.43586e+10
+net loss: 2.29663
+synthetic_gradients_model_loss: 7.43587e+10
+net loss: 2.29966
+synthetic_gradients_model_loss: 7.43588e+10
+net loss: 2.3063
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.30438
+synthetic_gradients_model_loss: 7.44126e+10
+net loss: 2.2999
+synthetic_gradients_model_loss: 7.44127e+10
+net loss: 2.29873
+synthetic_gradients_model_loss: 7.44127e+10
+net loss: 2.30163
+synthetic_gradients_model_loss: 7.44126e+10
+net loss: 2.30326
+synthetic_gradients_model_loss: 7.43397e+10
+net loss: 2.30556
+synthetic_gradients_model_loss: 7.43398e+10
+net loss: 2.29688
+synthetic_gradients_model_loss: 7.43398e+10
+net loss: 2.29661
+synthetic_gradients_model_loss: 7.43399e+10
+net loss: 2.30647
+synthetic_gradients_model_loss: 7.43399e+10
+net loss: 2.29722
+synthetic_gradients_model_loss: 7.43399e+10
+net loss: 2.30631
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.30275
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.30685
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.29963
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.30385
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.29929
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.3019
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.29992
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.30088
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.29464
+synthetic_gradients_model_loss: 7.44126e+10
+net loss: 2.30429
+synthetic_gradients_model_loss: 7.44054e+10
+net loss: 2.30804
+synthetic_gradients_model_loss: 7.44054e+10
+net loss: 2.29821
+synthetic_gradients_model_loss: 7.44054e+10
+net loss: 2.29654
+synthetic_gradients_model_loss: 7.44054e+10
+net loss: 2.29355
+synthetic_gradients_model_loss: 7.44054e+10
+net loss: 2.29881
+synthetic_gradients_model_loss: 7.44054e+10
+net loss: 2.29383
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.2949
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.30525
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.29803
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.3053
+synthetic_gradients_model_loss: 7.43977e+10
+net loss: 2.30055
+synthetic_gradients_model_loss: 7.43977e+10
+net loss: 2.29611
+synthetic_gradients_model_loss: 7.43976e+10
+net loss: 2.29467
+synthetic_gradients_model_loss: 7.43976e+10
+net loss: 2.29888
+synthetic_gradients_model_loss: 7.43975e+10
+net loss: 2.29492
+synthetic_gradients_model_loss: 7.43975e+10
+net loss: 2.29425
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.29821
+synthetic_gradients_model_loss: 7.44123e+10
+net loss: 2.30728
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.30328
+synthetic_gradients_model_loss: 7.44123e+10
+net loss: 2.30284
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.30733
+synthetic_gradients_model_loss: 7.44123e+10
+net loss: 2.30614
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.30382
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.30011
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.29919
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.31099
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.29323
+synthetic_gradients_model_loss: 7.44121e+10
+net loss: 2.30055
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.30244
+synthetic_gradients_model_loss: 7.44123e+10
+net loss: 2.2981
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.30066
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.29746
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.30213
+synthetic_gradients_model_loss: 7.44123e+10
+net loss: 2.30113
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.29933
+synthetic_gradients_model_loss: 7.4399e+10
+net loss: 2.29963
+synthetic_gradients_model_loss: 7.44123e+10
+net loss: 2.29952
+synthetic_gradients_model_loss: 7.44123e+10
+net loss: 2.29223
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.30335
+synthetic_gradients_model_loss: 7.44123e+10
+net loss: 2.29744
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.29907
+synthetic_gradients_model_loss: 7.44126e+10
+net loss: 2.30216
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.30013
+synthetic_gradients_model_loss: 7.44126e+10
+net loss: 2.30061
+synthetic_gradients_model_loss: 7.44126e+10
+net loss: 2.30348
+synthetic_gradients_model_loss: 7.44126e+10
+net loss: 2.29929
+synthetic_gradients_model_loss: 7.44126e+10
+net loss: 2.29535
+synthetic_gradients_model_loss: 7.44126e+10
+net loss: 2.30776
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.30062
+synthetic_gradients_model_loss: 7.4366e+10
+net loss: 2.30538
+synthetic_gradients_model_loss: 7.4366e+10
+net loss: 2.2985
+synthetic_gradients_model_loss: 7.43659e+10
+net loss: 2.30431
+synthetic_gradients_model_loss: 7.43657e+10
+net loss: 2.30482
+synthetic_gradients_model_loss: 7.43657e+10
+net loss: 2.30182
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.30695
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.30056
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.30383
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.29951
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.30664
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.30386
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.29889
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.30108
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.29862
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.30496
+synthetic_gradients_model_loss: 7.44121e+10
+net loss: 2.30448
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.29922
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.29258
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.29742
+synthetic_gradients_model_loss: 7.44121e+10
+net loss: 2.29909
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.30252
+synthetic_gradients_model_loss: 7.44121e+10
+net loss: 2.29854
+synthetic_gradients_model_loss: 7.4412e+10
+net loss: 2.30122
+synthetic_gradients_model_loss: 7.44119e+10
+net loss: 2.303
+synthetic_gradients_model_loss: 7.43599e+10
+net loss: 2.30623
+synthetic_gradients_model_loss: 7.44119e+10
+net loss: 2.30383
+synthetic_gradients_model_loss: 7.44121e+10
+net loss: 2.30919
+synthetic_gradients_model_loss: 7.44121e+10
+net loss: 2.30083
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.30326
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.30354
+synthetic_gradients_model_loss: 7.44121e+10
+net loss: 2.3065
+synthetic_gradients_model_loss: 7.4412e+10
+net loss: 2.29681
+synthetic_gradients_model_loss: 7.44121e+10
+net loss: 2.30154
+synthetic_gradients_model_loss: 7.44121e+10
+net loss: 2.2988
+synthetic_gradients_model_loss: 7.44123e+10
+net loss: 2.30024
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.28863
+synthetic_gradients_model_loss: 7.44121e+10
+net loss: 2.30338
+synthetic_gradients_model_loss: 7.4412e+10
+net loss: 2.29959
+synthetic_gradients_model_loss: 7.44062e+10
+net loss: 2.31394
+synthetic_gradients_model_loss: 7.44062e+10
+net loss: 2.30413
+synthetic_gradients_model_loss: 7.4406e+10
+net loss: 2.30362
+synthetic_gradients_model_loss: 7.4406e+10
+net loss: 2.29891
+synthetic_gradients_model_loss: 7.44058e+10
+net loss: 2.3056
+synthetic_gradients_model_loss: 7.44117e+10
+net loss: 2.30387
+synthetic_gradients_model_loss: 7.44117e+10
+net loss: 2.29667
+synthetic_gradients_model_loss: 7.44118e+10
+net loss: 2.29628
+synthetic_gradients_model_loss: 7.44119e+10
+net loss: 2.28809
+synthetic_gradients_model_loss: 7.4412e+10
+net loss: 2.29726
+synthetic_gradients_model_loss: 7.44121e+10
+net loss: 2.29782
+synthetic_gradients_model_loss: 7.439e+10
+net loss: 2.30727
+synthetic_gradients_model_loss: 7.439e+10
+net loss: 2.3024
+synthetic_gradients_model_loss: 7.43901e+10
+net loss: 2.3027
+synthetic_gradients_model_loss: 7.439e+10
+net loss: 2.30542
+synthetic_gradients_model_loss: 7.439e+10
+net loss: 2.30923
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.29662
+synthetic_gradients_model_loss: 7.44123e+10
+net loss: 2.30697
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.30448
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.29991
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.29723
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.29767
+synthetic_gradients_model_loss: 7.44126e+10
+net loss: 2.30455
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.29436
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.29817
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.29992
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.30645
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.30649
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.29395
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.31043
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.29643
+synthetic_gradients_model_loss: 7.43999e+10
+net loss: 2.29852
+synthetic_gradients_model_loss: 7.43998e+10
+net loss: 2.30291
+synthetic_gradients_model_loss: 7.43999e+10
+net loss: 2.30184
+synthetic_gradients_model_loss: 7.43998e+10
+net loss: 2.3006
+synthetic_gradients_model_loss: 7.43997e+10
+net loss: 2.28784
+synthetic_gradients_model_loss: 7.43996e+10
+net loss: 2.3022
+synthetic_gradients_model_loss: 7.43996e+10
+net loss: 2.29796
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.30151
+synthetic_gradients_model_loss: 7.44123e+10
+net loss: 2.29923
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.30086
+synthetic_gradients_model_loss: 7.44124e+10
+net loss: 2.30753
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.30461
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.29905
+synthetic_gradients_model_loss: 7.44125e+10
+net loss: 2.30738
+synthetic_gradients_model_loss: 7.43958e+10
+net loss: 2.29702
+synthetic_gradients_model_loss: 7.43957e+10
+net loss: 2.29669
+synthetic_gradients_model_loss: 7.43956e+10
+net loss: 2.30219
+synthetic_gradients_model_loss: 7.44123e+10
+net loss: 2.29478
+synthetic_gradients_model_loss: 7.44123e+10
+net loss: 2.30316
+synthetic_gradients_model_loss: 7.44121e+10
+net loss: 2.30349
+synthetic_gradients_model_loss: 7.44121e+10
+net loss: 2.29917
+synthetic_gradients_model_loss: 7.4412e+10
+net loss: 2.30801
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.29537
+synthetic_gradients_model_loss: 7.4412e+10
+net loss: 2.31014
+synthetic_gradients_model_loss: 7.4412e+10
+net loss: 2.3005
+synthetic_gradients_model_loss: 7.4412e+10
+net loss: 2.29884
+synthetic_gradients_model_loss: 7.44121e+10
+net loss: 2.29926
+synthetic_gradients_model_loss: 7.44121e+10
+net loss: 2.29767
+synthetic_gradients_model_loss: 7.44123e+10
+net loss: 2.31127
+synthetic_gradients_model_loss: 7.4412e+10
+net loss: 2.29893
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.30148
+synthetic_gradients_model_loss: 7.44122e+10
+net loss: 2.28988
+synthetic_gradients_model_loss: 7.4358e+10
+net loss: 2.29974
+synthetic_gradients_model_loss: 7.43579e+10
+net loss: 2.29926
+synthetic_gradients_model_loss: 7.43578e+10
+net loss: 2.30035
+synthetic_gradients_model_loss: 7.4057e+10
+net loss: 2.30858
+synthetic_gradients_model_loss: 7.4057e+10
+net loss: 2.30058
+synthetic_gradients_model_loss: 7.40569e+10
+net loss: 2.29369
+synthetic_gradients_model_loss: 7.40569e+10
+net loss: 2.29645
+synthetic_gradients_model_loss: 7.40569e+10
+net loss: 2.30108
+synthetic_gradients_model_loss: 7.27541e+10
+net loss: 2.30113
+synthetic_gradients_model_loss: 7.27539e+10
+net loss: 2.29617
+synthetic_gradients_model_loss: 7.27539e+10
+net loss: 2.30627
+synthetic_gradients_model_loss: 7.27538e+10
+net loss: 2.29475
+synthetic_gradients_model_loss: 7.27539e+10
+net loss: 2.3002
+synthetic_gradients_model_loss: 7.19416e+10
+net loss: 2.30235
+synthetic_gradients_model_loss: 7.19416e+10
+net loss: 2.29714
+synthetic_gradients_model_loss: 7.19417e+10
+net loss: 2.308
+synthetic_gradients_model_loss: 7.19417e+10
+net loss: 2.30268
+synthetic_gradients_model_loss: 7.19418e+10
+net loss: 2.30265
+synthetic_gradients_model_loss: 7.19418e+10
+net loss: 2.30073
+synthetic_gradients_model_loss: 7.19418e+10
+net loss: 2.30595
+synthetic_gradients_model_loss: 7.19418e+10
+net loss: 2.30073
+synthetic_gradients_model_loss: 7.30593e+10
+net loss: 2.31
+synthetic_gradients_model_loss: 7.15352e+10
+net loss: 2.30297
+synthetic_gradients_model_loss: 7.19417e+10
+net loss: 2.3018
+synthetic_gradients_model_loss: 7.19418e+10
+net loss: 2.29502
+synthetic_gradients_model_loss: 7.19418e+10
+net loss: 2.30688
+synthetic_gradients_model_loss: 7.19418e+10
+net loss: 2.30029
+synthetic_gradients_model_loss: 7.19419e+10
+net loss: 2.29955
+synthetic_gradients_model_loss: 7.19418e+10
+net loss: 2.29804
+synthetic_gradients_model_loss: 7.19419e+10
+net loss: 2.3031
+synthetic_gradients_model_loss: 7.19419e+10
+net loss: 2.29932
+synthetic_gradients_model_loss: 7.19418e+10
+net loss: 2.29433
+synthetic_gradients_model_loss: 7.27509e+10
+net loss: 2.30072
+synthetic_gradients_model_loss: 7.27508e+10
+net loss: 2.31106
+synthetic_gradients_model_loss: 7.27507e+10
+net loss: 2.30135
+synthetic_gradients_model_loss: 7.27506e+10
+net loss: 2.29986
+synthetic_gradients_model_loss: 7.27505e+10
+net loss: 2.29736
+synthetic_gradients_model_loss: 7.27505e+10
+net loss: 2.29382
+synthetic_gradients_model_loss: 7.40683e+10
+net loss: 2.30287
+synthetic_gradients_model_loss: 7.40683e+10
+net loss: 2.31271
+synthetic_gradients_model_loss: 7.43637e+10
+net loss: 2.29652
+synthetic_gradients_model_loss: 7.43636e+10
+net loss: 2.29625
+synthetic_gradients_model_loss: 7.43636e+10
+net loss: 2.30471
+synthetic_gradients_model_loss: 7.43636e+10
+net loss: 2.30149
+synthetic_gradients_model_loss: 7.43636e+10
+net loss: 2.30668
+synthetic_gradients_model_loss: 7.43636e+10
+net loss: 2.29762
+synthetic_gradients_model_loss: 7.43634e+10
+net loss: 2.29979
+synthetic_gradients_model_loss: 7.43634e+10
+net loss: 2.3011
+synthetic_gradients_model_loss: 7.43634e+10
+net loss: 2.30356
+synthetic_gradients_model_loss: 7.44187e+10
+net loss: 2.29493
+synthetic_gradients_model_loss: 7.44187e+10
+net loss: 2.29919
+synthetic_gradients_model_loss: 7.44187e+10
+net loss: 2.29658
+synthetic_gradients_model_loss: 7.44187e+10
+net loss: 2.29367
+synthetic_gradients_model_loss: 7.44186e+10
+net loss: 2.29963
+synthetic_gradients_model_loss: 7.44188e+10
+net loss: 2.29588
+synthetic_gradients_model_loss: 7.44187e+10
+net loss: 2.30231
+synthetic_gradients_model_loss: 7.44187e+10
+net loss: 2.29726
+synthetic_gradients_model_loss: 7.44187e+10
+net loss: 2.30113
+synthetic_gradients_model_loss: 7.44186e+10
+net loss: 2.2961
+synthetic_gradients_model_loss: 7.43972e+10
+net loss: 2.29393
+synthetic_gradients_model_loss: 7.43972e+10
+net loss: 2.30232
+synthetic_gradients_model_loss: 7.43971e+10
+net loss: 2.29938
+synthetic_gradients_model_loss: 7.24957e+10
+net loss: 2.29525
+synthetic_gradients_model_loss: 7.24959e+10
+net loss: 2.30252
+synthetic_gradients_model_loss: 7.2496e+10
+net loss: 2.2986
+synthetic_gradients_model_loss: 7.24962e+10
+net loss: 2.30404
+synthetic_gradients_model_loss: 7.24963e+10
+net loss: 2.30044
+synthetic_gradients_model_loss: 7.24964e+10
+net loss: 2.2932
+synthetic_gradients_model_loss: 7.16243e+10
+net loss: 2.2993
+synthetic_gradients_model_loss: 7.16244e+10
+net loss: 2.29961
+synthetic_gradients_model_loss: 7.16244e+10
+net loss: 2.30883
+synthetic_gradients_model_loss: 7.16243e+10
+net loss: 2.30028
+synthetic_gradients_model_loss: 7.16242e+10
+net loss: 2.30148
+synthetic_gradients_model_loss: 7.13875e+10
+net loss: 2.30662
+synthetic_gradients_model_loss: 7.13877e+10
+net loss: 2.30311
+synthetic_gradients_model_loss: 7.13878e+10
+net loss: 2.29772
+synthetic_gradients_model_loss: 7.1388e+10
+net loss: 2.29803
+synthetic_gradients_model_loss: 7.13881e+10
+net loss: 2.29635
+synthetic_gradients_model_loss: 7.13882e+10
+net loss: 2.30162
+synthetic_gradients_model_loss: 7.13881e+10
+net loss: 2.30636
+synthetic_gradients_model_loss: 7.13881e+10
+net loss: 2.30175
+synthetic_gradients_model_loss: 7.13881e+10
+net loss: 2.30245
+synthetic_gradients_model_loss: 7.13882e+10
+net loss: 2.30602
+synthetic_gradients_model_loss: 7.12085e+10
+net loss: 2.29609
+synthetic_gradients_model_loss: 7.12085e+10
+net loss: 2.30567
+synthetic_gradients_model_loss: 7.12086e+10
+net loss: 2.2914
+synthetic_gradients_model_loss: 7.09217e+10
+net loss: 2.29953
+synthetic_gradients_model_loss: 7.09217e+10
+net loss: 2.2984
+synthetic_gradients_model_loss: 7.09217e+10
+net loss: 2.30608
+synthetic_gradients_model_loss: 7.09216e+10
+net loss: 2.29998
+synthetic_gradients_model_loss: 7.09216e+10
+net loss: 2.30272
+synthetic_gradients_model_loss: 7.09215e+10
+net loss: 2.30075
+synthetic_gradients_model_loss: 7.09214e+10
+net loss: 2.29674
+synthetic_gradients_model_loss: 7.026e+10
+net loss: 2.30597
+synthetic_gradients_model_loss: 7.09207e+10
+net loss: 2.3105
+synthetic_gradients_model_loss: 7.09207e+10
+net loss: 2.30464
+synthetic_gradients_model_loss: 7.09207e+10
+net loss: 2.29956
+synthetic_gradients_model_loss: 7.09208e+10
+net loss: 2.30416
+synthetic_gradients_model_loss: 7.09207e+10
+net loss: 2.29658
+synthetic_gradients_model_loss: 7.09204e+10
+net loss: 2.30412
+synthetic_gradients_model_loss: 7.09204e+10
+net loss: 2.30643
+synthetic_gradients_model_loss: 7.09204e+10
+net loss: 2.30778
+synthetic_gradients_model_loss: 7.09203e+10
+net loss: 2.30014
+synthetic_gradients_model_loss: 7.09203e+10
+net loss: 2.30165
+synthetic_gradients_model_loss: 7.02596e+10
+net loss: 2.30247
+synthetic_gradients_model_loss: 7.02598e+10
+net loss: 2.2999
+synthetic_gradients_model_loss: 7.02599e+10
+net loss: 2.29927
+synthetic_gradients_model_loss: 7.02599e+10
+net loss: 2.30916
+synthetic_gradients_model_loss: 7.02599e+10
+net loss: 2.29707
+synthetic_gradients_model_loss: 6.88432e+10
+net loss: 2.31078
+synthetic_gradients_model_loss: 6.88433e+10
+net loss: 2.30648
+synthetic_gradients_model_loss: 6.88432e+10
+net loss: 2.29957
+synthetic_gradients_model_loss: 6.88431e+10
+net loss: 2.30122
+synthetic_gradients_model_loss: 6.88432e+10
+net loss: 2.30716
+synthetic_gradients_model_loss: 7.02595e+10
+net loss: 2.30053
+synthetic_gradients_model_loss: 7.02595e+10
+net loss: 2.30567
+synthetic_gradients_model_loss: 7.02595e+10
+net loss: 2.29373
+synthetic_gradients_model_loss: 7.02596e+10
+net loss: 2.29682
+synthetic_gradients_model_loss: 7.02594e+10
+net loss: 2.29777
+synthetic_gradients_model_loss: 7.02596e+10
+net loss: 2.3033
+synthetic_gradients_model_loss: 7.09207e+10
+net loss: 2.29677
+synthetic_gradients_model_loss: 7.09207e+10
+net loss: 2.29892
+synthetic_gradients_model_loss: 7.09206e+10
+net loss: 2.29575
+synthetic_gradients_model_loss: 7.09205e+10
+net loss: 2.31089
+synthetic_gradients_model_loss: 7.02591e+10
+net loss: 2.30249
+synthetic_gradients_model_loss: 7.02591e+10
+net loss: 2.30251
+synthetic_gradients_model_loss: 7.02593e+10
+net loss: 2.29147
+synthetic_gradients_model_loss: 7.02593e+10
+net loss: 2.3
+synthetic_gradients_model_loss: 7.02592e+10
+net loss: 2.3006
+synthetic_gradients_model_loss: 7.02593e+10
+net loss: 2.29642
+synthetic_gradients_model_loss: 7.02594e+10
+net loss: 2.30377
+synthetic_gradients_model_loss: 7.02594e+10
+net loss: 2.29905
+synthetic_gradients_model_loss: 6.88816e+10
+net loss: 2.31103
+synthetic_gradients_model_loss: 6.88817e+10
+net loss: 2.30238
+synthetic_gradients_model_loss: 6.88817e+10
+net loss: 2.29789
+synthetic_gradients_model_loss: 6.88817e+10
+net loss: 2.30213
+synthetic_gradients_model_loss: 7.0261e+10
+net loss: 2.29721
+synthetic_gradients_model_loss: 7.02612e+10
+net loss: 2.30245
+synthetic_gradients_model_loss: 7.02613e+10
+net loss: 2.29646
+synthetic_gradients_model_loss: 7.02614e+10
+net loss: 2.29892
+synthetic_gradients_model_loss: 7.02615e+10
+net loss: 2.30514
+synthetic_gradients_model_loss: 7.02616e+10
+net loss: 2.30737
+synthetic_gradients_model_loss: 7.02617e+10
+net loss: 2.30522
+synthetic_gradients_model_loss: 7.09109e+10
+net loss: 2.30052
+synthetic_gradients_model_loss: 7.09109e+10
+net loss: 2.30178
+synthetic_gradients_model_loss: 7.11945e+10
+net loss: 2.30268
+synthetic_gradients_model_loss: 7.11946e+10
+net loss: 2.30704
+synthetic_gradients_model_loss: 7.11946e+10
+net loss: 2.30817
+synthetic_gradients_model_loss: 7.11946e+10
+net loss: 2.30282
+synthetic_gradients_model_loss: 7.11945e+10
+net loss: 2.30798
+synthetic_gradients_model_loss: 7.11945e+10
+net loss: 2.29509
+synthetic_gradients_model_loss: 7.11946e+10
+net loss: 2.29752
+synthetic_gradients_model_loss: 7.11945e+10
+net loss: 2.29868
+synthetic_gradients_model_loss: 7.0911e+10
+net loss: 2.30159
+synthetic_gradients_model_loss: 7.0911e+10
+net loss: 2.30764
+synthetic_gradients_model_loss: 7.09109e+10
+net loss: 2.3018
+synthetic_gradients_model_loss: 7.09109e+10
+net loss: 2.29878
+synthetic_gradients_model_loss: 7.09109e+10
+net loss: 2.30396
+synthetic_gradients_model_loss: 7.09109e+10
+net loss: 2.30284
+synthetic_gradients_model_loss: 6.93489e+10
+net loss: 2.29905
+synthetic_gradients_model_loss: 7.02631e+10
+net loss: 2.30563
+synthetic_gradients_model_loss: 7.02633e+10
+net loss: 2.29871
+synthetic_gradients_model_loss: 7.02633e+10
+net loss: 2.30641
+synthetic_gradients_model_loss: 7.02632e+10
+net loss: 2.30562
+synthetic_gradients_model_loss: 7.02633e+10
+net loss: 2.30197
+synthetic_gradients_model_loss: 6.88726e+10
+net loss: 2.3029
+synthetic_gradients_model_loss: 6.70979e+10
+net loss: 2.30973
+synthetic_gradients_model_loss: 6.7098e+10
+net loss: 2.30218
+synthetic_gradients_model_loss: 6.7098e+10
+net loss: 2.29501
+synthetic_gradients_model_loss: 6.70981e+10
+net loss: 2.29764
+synthetic_gradients_model_loss: 6.70982e+10
+net loss: 2.29821
+synthetic_gradients_model_loss: 6.70983e+10
+net loss: 2.29287
+synthetic_gradients_model_loss: 6.70983e+10
+net loss: 2.30203
+synthetic_gradients_model_loss: 6.70983e+10
+net loss: 2.30346
+synthetic_gradients_model_loss: 6.5853e+10
+net loss: 2.3016
+synthetic_gradients_model_loss: 6.5853e+10
+net loss: 2.2978
+synthetic_gradients_model_loss: 6.5853e+10
+net loss: 2.29708
+synthetic_gradients_model_loss: 6.5853e+10
+net loss: 2.30286
+synthetic_gradients_model_loss: 6.58531e+10
+net loss: 2.2927
+synthetic_gradients_model_loss: 6.5853e+10
+net loss: 2.29886
+synthetic_gradients_model_loss: 6.70984e+10
+net loss: 2.3008
+synthetic_gradients_model_loss: 6.70984e+10
+net loss: 2.30923
+synthetic_gradients_model_loss: 6.70985e+10
+net loss: 2.30909
+synthetic_gradients_model_loss: 6.70985e+10
+net loss: 2.30474
+synthetic_gradients_model_loss: 6.70984e+10
+net loss: 2.30816
+synthetic_gradients_model_loss: 6.70985e+10
+net loss: 2.30583
+synthetic_gradients_model_loss: 6.88778e+10
+net loss: 2.30319
+synthetic_gradients_model_loss: 6.88778e+10
+net loss: 2.28865
+synthetic_gradients_model_loss: 6.88776e+10
+net loss: 2.2961
+synthetic_gradients_model_loss: 6.88775e+10
+net loss: 2.30223
+synthetic_gradients_model_loss: 7.02686e+10
+net loss: 2.30084
+synthetic_gradients_model_loss: 7.02685e+10
+net loss: 2.29658
+synthetic_gradients_model_loss: 7.02684e+10
+net loss: 2.29684
+synthetic_gradients_model_loss: 7.02684e+10
+net loss: 2.306
+synthetic_gradients_model_loss: 7.02685e+10
+net loss: 2.29748
+synthetic_gradients_model_loss: 7.02684e+10
+net loss: 2.30807
+synthetic_gradients_model_loss: 7.02684e+10
+net loss: 2.30422
+synthetic_gradients_model_loss: 6.88774e+10
+net loss: 2.30577
+synthetic_gradients_model_loss: 6.88773e+10
+net loss: 2.30791
+synthetic_gradients_model_loss: 6.88772e+10
+net loss: 2.30207
+synthetic_gradients_model_loss: 6.8877e+10
+net loss: 2.29737
+synthetic_gradients_model_loss: 6.88769e+10
+net loss: 2.30475
+synthetic_gradients_model_loss: 6.88769e+10
+net loss: 2.29495
+synthetic_gradients_model_loss: 6.71003e+10
+net loss: 2.29238
+synthetic_gradients_model_loss: 6.71003e+10
+net loss: 2.29754
+synthetic_gradients_model_loss: 6.71004e+10
+net loss: 2.29561
+synthetic_gradients_model_loss: 6.71005e+10
